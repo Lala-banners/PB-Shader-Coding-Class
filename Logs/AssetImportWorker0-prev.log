@@ -15,11 +15,11 @@ C:/Users/lalal/Documents/Class Projects/Polish Builds - Shader Coding
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57991
+55730
 Successfully changed project path to: C:/Users/lalal/Documents/Class Projects/Polish Builds - Shader Coding
 C:/Users/lalal/Documents/Class Projects/Polish Builds - Shader Coding
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.31 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 38.77 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,55 +35,71 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002712 seconds.
+Registered in 0.002842 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.34 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 43.10 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
+- Completed reload, in  1.129 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002727 seconds.
+Registered in 0.002599 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
+- Completed reload, in  0.853 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.3 MB.
-System memory in use after: 150.4 MB.
+System memory in use before: 150.5 MB.
+System memory in use after: 150.5 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 2.408100 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.009100 ms  DeleteObjects: 0.108100 ms)
+Total: 1.797000 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.083200 ms MarkObjects: 1.418300 ms  DeleteObjects: 0.100100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/NVIDIA/Flex
-  artifactKey: Guid(234540e0efa7b944298b89a0ce238d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex using Guid(234540e0efa7b944298b89a0ce238d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73152c253c8e484f95401b0e97529d8') in 0.008828 seconds
-  Import took 0.011621 seconds .
+  path: Assets/SHADER CODING
+  artifactKey: Guid(e4e75bc8837695e4dbcb10db6abfffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHADER CODING using Guid(e4e75bc8837695e4dbcb10db6abfffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e447a5ac279abca9ba60c0595f5d3ad') in 0.008302 seconds
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.054094 seconds.
+  path: Assets/SHADER CODING/Lighting.shader
+  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d44350c4c3e55f0203c405dc33189ee') in 0.036269 seconds
+  Import took 0.038594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.363391 seconds.
+  path: Assets/ART
+  artifactKey: Guid(60c1fb4bbc60a9a41bfbd1b8790e006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART using Guid(60c1fb4bbc60a9a41bfbd1b8790e006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dc2bf4ebd3c9acc06373b36842244c') in 0.008477 seconds
+  Import took 0.011833 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002616 seconds.
+Registered in 0.002620 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
@@ -92,644 +108,276 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
+- Completed reload, in  0.849 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.8 MB.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1876.
-Total: 2.305300 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.077700 ms MarkObjects: 1.925100 ms  DeleteObjects: 0.076500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.586549 seconds.
-  path: Assets/Scenes/Rainbow.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Rainbow.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c45322162ae8435ecbbc8bd76ac7fa') in 0.014640 seconds
-  Import took 0.017027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.840511 seconds.
-  path: Assets/Scenes/Water Simulation.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Water Simulation.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05fc6073d5f829e754729f1e0a0ed36') in 0.007453 seconds
-  Import took 0.009673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.917184 seconds.
-  path: Assets/Scenes/Profiles
-  artifactKey: Guid(e53f870e0a6f50d4aa774929c7ba3555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Profiles using Guid(e53f870e0a6f50d4aa774929c7ba3555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd36feb25484b4ef94541af2bdb1c59') in 0.007259 seconds
-  Import took 0.009546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055015 seconds.
-  path: Assets/Scenes/Profiles/DefaultProfile.asset
-  artifactKey: Guid(30c76ed8c1bfdec468bc22dee567578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Profiles/DefaultProfile.asset using Guid(30c76ed8c1bfdec468bc22dee567578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303a0de417172bf7690c9adf431ae316') in 0.065915 seconds
-  Import took 0.068518 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.817100 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.502700 ms  DeleteObjects: 0.085500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002697 seconds.
+Registered in 0.003730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.835 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1878.
-Total: 1.771700 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.438700 ms  DeleteObjects: 0.070500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002787 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.9 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 1.779900 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.529000 ms  DeleteObjects: 0.069000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 1.890100 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.512900 ms  DeleteObjects: 0.089000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.296791 seconds.
+  path: Assets/Sherbbs Particle Collection
+  artifactKey: Guid(bff23f5603630e9468017579379af1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sherbbs Particle Collection using Guid(bff23f5603630e9468017579379af1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc93f42cb359d2d320dbf2f01ef65d63') in 0.008520 seconds
+  Import took 0.011250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.240537 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(77c780bf9cd02e441b1de46f397200cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(77c780bf9cd02e441b1de46f397200cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9633961e4413981b64f254545d758da1') in 0.006464 seconds
+  Import took 0.009106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.336216 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(a68c269571cfc7a4f8eb6f1f3e384f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(a68c269571cfc7a4f8eb6f1f3e384f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250bf5343eec5f0d1fef2b9fba582a61') in 0.007169 seconds
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.252384 seconds.
+  path: Assets/NVIDIA
+  artifactKey: Guid(6eb7215877b1c17468680862f6443406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NVIDIA using Guid(6eb7215877b1c17468680862f6443406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ca31b4ca55c0770e40f1da6ed14f6e') in 0.008595 seconds
+  Import took 0.012337 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002603 seconds.
+Registered in 0.002670 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1360 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 146.9 MB.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1882.
-Total: 1.745400 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.448700 ms  DeleteObjects: 0.072300 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 1.723900 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.085700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 252.963742 seconds.
-  path: Assets/WATER SIMULATION
-  artifactKey: Guid(51ae263095289164083fecbd7bd44c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION using Guid(51ae263095289164083fecbd7bd44c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9b335a1ac97ffd6e15e98c8a380d9c') in 0.008188 seconds
-  Import took 0.010962 seconds .
+  Time since last request: 3.912774 seconds.
+  path: Assets/Shared
+  artifactKey: Guid(d20707e94d6582c4bb82c70bda7918f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared using Guid(d20707e94d6582c4bb82c70bda7918f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1713506c0f1a0c613bc6d479ec6540c') in 0.008369 seconds
+  Import took 0.011289 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.384419 seconds.
-  path: Assets/WATER SIMULATION/Cubes.prefab
-  artifactKey: Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Cubes.prefab using Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dd44d615dfe301c455f3d14ca9bd77') in 0.089997 seconds
-  Import took 0.092560 seconds .
+  Time since last request: 2.305121 seconds.
+  path: Assets/Shared/Scripts
+  artifactKey: Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Scripts using Guid(bd22c1c7cfb6a0f469bbe1805930df50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31206afc76368499706d545b16451761') in 0.003553 seconds
+  Import took 0.007135 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.326714 seconds.
-  path: Assets/WATER SIMULATION/Flex Source.prefab
-  artifactKey: Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Flex Source.prefab using Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb874162f968a62387297d4157558d') in 0.019879 seconds
-  Import took 0.022700 seconds .
+  Time since last request: 16.568775 seconds.
+  path: Assets/Shared/Prefabs
+  artifactKey: Guid(40699bdce656c484c9aa24320556cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Prefabs using Guid(40699bdce656c484c9aa24320556cf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9a081e447b9ceae5f4c24ed219cc75') in 0.008443 seconds
+  Import took 0.015840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.017446 seconds.
-  path: Assets/WATER SIMULATION/Flex Source.prefab
-  artifactKey: Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Flex Source.prefab using Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb874162f968a62387297d4157558d') in 0.005839 seconds
-  Import took 0.008181 seconds .
+  Time since last request: 0.050334 seconds.
+  path: Assets/Shared/Prefabs/Player.prefab
+  artifactKey: Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Prefabs/Player.prefab using Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1428c186076ff4759b885724e274fe6') in 0.529926 seconds
+  Import took 0.533258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.472370 seconds.
-  path: Assets/WATER SIMULATION/Flex Array.prefab
-  artifactKey: Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Flex Array.prefab using Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df18135cbfcd894e52a6853dc0f18d1') in 0.015366 seconds
-  Import took 0.017810 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Shared/Prefabs/WorldSpaceLabel.prefab
+  artifactKey: Guid(ee8ad5531e02f4f0eb2d4187ec62c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Prefabs/WorldSpaceLabel.prefab using Guid(ee8ad5531e02f4f0eb2d4187ec62c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa2cf63417ac101a9a6dd70a26f720') in 0.086405 seconds
+  Import took 0.089029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016326 seconds.
-  path: Assets/WATER SIMULATION/Flex Array.prefab
-  artifactKey: Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Flex Array.prefab using Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df18135cbfcd894e52a6853dc0f18d1') in 0.006045 seconds
-  Import took 0.008509 seconds .
+  Time since last request: 2.780747 seconds.
+  path: Assets/Shared/Environment/Prefabs
+  artifactKey: Guid(39c8d8ec6c0e67648b30fb0dd38b37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs using Guid(39c8d8ec6c0e67648b30fb0dd38b37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4442b354f771d5a1cfd07095a664d8') in 0.002843 seconds
+  Import took 0.005736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.660729 seconds.
-  path: Assets/Shared/Ramps/Runtime/RampAsset.cs
-  artifactKey: Guid(366060de70f6d41d688e416621057bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Ramps/Runtime/RampAsset.cs using Guid(366060de70f6d41d688e416621057bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010182754088a7f1769c3cee8773eaa3') in 0.013191 seconds
-  Import took 0.015753 seconds .
+  Time since last request: 0.052360 seconds.
+  path: Assets/Shared/Environment/Prefabs/CornerWall.prefab
+  artifactKey: Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/CornerWall.prefab using Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59b36948675b91ae455b9958be9ccbc') in 0.228855 seconds
+  Import took 0.232925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008124 seconds.
-  path: Assets/NVIDIA/Flex/Resources/Shaders/DebugPoints.shader
-  artifactKey: Guid(a793ceb74a6eab7459a314f229213621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Resources/Shaders/DebugPoints.shader using Guid(a793ceb74a6eab7459a314f229213621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c8dba36a01917abac60a69895d18ad') in 0.008631 seconds
-  Import took 0.011161 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Shared/Environment/Prefabs/LongOverhangWall.prefab
+  artifactKey: Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/LongOverhangWall.prefab using Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f1c095ad3bdbaf4862e74ef600d006') in 0.055959 seconds
+  Import took 0.060227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020789 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7362b8b9fd93a0ecf7d8075dd3d25521') in 0.006344 seconds
-  Import took 0.008907 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Shared/Environment/Prefabs/SideWall.prefab
+  artifactKey: Guid(2ed68cc4c6f4c5d42bb123a2bc92d4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/SideWall.prefab using Guid(2ed68cc4c6f4c5d42bb123a2bc92d4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b8852afb5cf2c99001f21574b0252b') in 0.033249 seconds
+  Import took 0.036510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018420 seconds.
-  path: Assets/Shared/Scripts/SimpleCharacterMotor.cs
-  artifactKey: Guid(b388589949f9448aca1903107a88cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Scripts/SimpleCharacterMotor.cs using Guid(b388589949f9448aca1903107a88cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6816e588640dd4ed2417c8c4df7248ad') in 0.006125 seconds
-  Import took 0.008323 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/Shared/Environment/Prefabs/SmallLight.prefab
+  artifactKey: Guid(7eb44e6d0f419324b83e33d3678c4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/SmallLight.prefab using Guid(7eb44e6d0f419324b83e33d3678c4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851069482bfa5725c7e4ab65487ba63f') in 0.016913 seconds
+  Import took 0.019767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015220 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080f90415c8d129a9a7e5061fd08197') in 0.005880 seconds
-  Import took 0.008702 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Shared/Environment/Prefabs/EndWall.prefab
+  artifactKey: Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/EndWall.prefab using Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae0dfd1534da2a41a701f12e8688acb') in 0.033269 seconds
+  Import took 0.036568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025193 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexSoftActor.cs
-  artifactKey: Guid(793e0ae62b98fe542a8bc346e24e3dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexSoftActor.cs using Guid(793e0ae62b98fe542a8bc346e24e3dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58267911c2f975f766ee670068f60c68') in 0.006365 seconds
-  Import took 0.008608 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/Shared/Environment/Prefabs/Railing.prefab
+  artifactKey: Guid(e06ec3bfe7bdb824ba30d9b927c012f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/Railing.prefab using Guid(e06ec3bfe7bdb824ba30d9b927c012f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec2c1af56fe1cd6b545dc24a3ea96d0') in 0.041095 seconds
+  Import took 0.043867 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018046 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSolidAssetEditor.cs
-  artifactKey: Guid(57208d88b4e089341a41e31a914e6391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSolidAssetEditor.cs using Guid(57208d88b4e089341a41e31a914e6391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12f0441ca6201e2975ec8bb09f45623') in 0.006197 seconds
-  Import took 0.008448 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/Shared/Environment/Prefabs/FloorShort.prefab
+  artifactKey: Guid(020c53dc8ae609f4c9ddc4cbe9d3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/FloorShort.prefab using Guid(020c53dc8ae609f4c9ddc4cbe9d3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e835071176d6a92f199e847f96794b2') in 0.039983 seconds
+  Import took 0.044013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018097 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexClothDeformation.cs
-  artifactKey: Guid(b0363b8f118779c4cb800e4f1dc0b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexClothDeformation.cs using Guid(b0363b8f118779c4cb800e4f1dc0b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c71e98b09f0f24aa26db1879d6dc7fb') in 0.005976 seconds
-  Import took 0.008202 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/Shared/Environment/Prefabs/Step.prefab
+  artifactKey: Guid(21f4ee7b875c5614bae545ccd6c7652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/Step.prefab using Guid(21f4ee7b875c5614bae545ccd6c7652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793934357766d7092f7e9edf6044ecc8') in 0.031559 seconds
+  Import took 0.034460 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016693 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexClothActorEditor.cs
-  artifactKey: Guid(7507ffda064f74c4e93051a704e95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexClothActorEditor.cs using Guid(7507ffda064f74c4e93051a704e95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676c65e700e49db9c65dea769d302fb1') in 0.006063 seconds
-  Import took 0.008462 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/Shared/Environment/Prefabs/FloorLong.prefab
+  artifactKey: Guid(364e3c46cc3cab14190de95b5e46dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/FloorLong.prefab using Guid(364e3c46cc3cab14190de95b5e46dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3cca0ad89393f3d64778e92872dfe2') in 0.042910 seconds
+  Import took 0.047580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.017509 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexFluidRenderer.cs
-  artifactKey: Guid(50727fb552f09d84fbbb274bb86a2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexFluidRenderer.cs using Guid(50727fb552f09d84fbbb274bb86a2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135f4595afa8037e53d2bb87ca5cc9ef') in 0.006995 seconds
-  Import took 0.009217 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/Shared/Environment/Prefabs/FloorTiny.prefab
+  artifactKey: Guid(8e1da52275f7dd14982d99253940530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/FloorTiny.prefab using Guid(8e1da52275f7dd14982d99253940530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a5474275150543d8699de002268a1') in 0.031231 seconds
+  Import took 0.034517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003141 seconds.
-  path: Assets/WATER SIMULATION/Water Simulation.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WATER SIMULATION/Water Simulation.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553b26873bd5ab46cf0b22d6956645c') in 0.002619 seconds
-  Import took 0.004764 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Shared/Environment/Prefabs/FloorMiddle.prefab
+  artifactKey: Guid(4a71a58a3a7116c4a8aabbf8699066aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/FloorMiddle.prefab using Guid(4a71a58a3a7116c4a8aabbf8699066aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5199c0c689737fd2c58fe854770cef76') in 0.030572 seconds
+  Import took 0.033853 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019259 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSoftAssetEditor.cs
-  artifactKey: Guid(f6f5d7ebb4819ce4aa5af55e5e552244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSoftAssetEditor.cs using Guid(f6f5d7ebb4819ce4aa5af55e5e552244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efb51732986674468c95db859786d8d') in 0.006275 seconds
-  Import took 0.008793 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/Shared/Environment/Prefabs/Stairs.prefab
+  artifactKey: Guid(d40e6ae8e2813774882bcaf23d9a9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/Stairs.prefab using Guid(d40e6ae8e2813774882bcaf23d9a9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2188b15fba1c1e0537eaab71b440aa3') in 0.031146 seconds
+  Import took 0.035562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016040 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Tests/FlexUtilsTests.cs
-  artifactKey: Guid(40177fb86109b41439e6c3ea2a33d9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Tests/FlexUtilsTests.cs using Guid(40177fb86109b41439e6c3ea2a33d9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d32ed3f2d234ecf734265516cc74dd') in 0.006295 seconds
-  Import took 0.008504 seconds .
+  Time since last request: 0.005205 seconds.
+  path: Assets/Shared/Environment/Prefabs/Stairs.prefab
+  artifactKey: Guid(d40e6ae8e2813774882bcaf23d9a9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared/Environment/Prefabs/Stairs.prefab using Guid(d40e6ae8e2813774882bcaf23d9a9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2188b15fba1c1e0537eaab71b440aa3') in 0.021311 seconds
+  Import took 0.024779 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.016854 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Tests/FlexActorTests.cs
-  artifactKey: Guid(617b5f221ff5ae548be5a37dab433701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Tests/FlexActorTests.cs using Guid(617b5f221ff5ae548be5a37dab433701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1dd7bbb5b8207bb8e5d819bd75a9c6') in 0.006211 seconds
-  Import took 0.008477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017015 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexClothActor.cs
-  artifactKey: Guid(669b96cc137041246b46e8203ba6a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexClothActor.cs using Guid(669b96cc137041246b46e8203ba6a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33ad44301046e0a74b4fa9539ca86a7') in 0.006593 seconds
-  Import took 0.009144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015717 seconds.
-  path: Assets/Shared/Scripts/SimpleCameraController.cs
-  artifactKey: Guid(390f972b3a1e62341ad150cbe29782f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Scripts/SimpleCameraController.cs using Guid(390f972b3a1e62341ad150cbe29782f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e8846762a5df4b25b88472a79eed0') in 0.006002 seconds
-  Import took 0.008271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016112 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexClothAsset.cs
-  artifactKey: Guid(c124e7227a7437c43b89f4cbd031e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexClothAsset.cs using Guid(c124e7227a7437c43b89f4cbd031e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a7e7dc00fa5a607d3cf8f43c7de51f') in 0.006169 seconds
-  Import took 0.008731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031222 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexClothAssetEditor.cs
-  artifactKey: Guid(d723faffedb0c184dac5ca120cf308bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexClothAssetEditor.cs using Guid(d723faffedb0c184dac5ca120cf308bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0c48e07ecda3ec5b270a5ab0f42dbd') in 0.006844 seconds
-  Import took 0.009389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017207 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexAssetEditor.cs
-  artifactKey: Guid(bc182385ac7a2ef4889a31d1a92dc8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexAssetEditor.cs using Guid(bc182385ac7a2ef4889a31d1a92dc8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f901d6dbd416f4f1ea98ed1eaddd5685') in 0.005952 seconds
-  Import took 0.008183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030158 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Tests/FlexAssetTests.cs
-  artifactKey: Guid(9c79baf376d0b6547b2dfe5f08feb630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Tests/FlexAssetTests.cs using Guid(9c79baf376d0b6547b2dfe5f08feb630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cfe93df6992c1357839b08dcec469e') in 0.006403 seconds
-  Import took 0.008899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015579 seconds.
-  path: Assets/Shared/Ramps/Editor/RampAssetEditor.cs
-  artifactKey: Guid(0939ef1fe67b3477e8058638b5924ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Ramps/Editor/RampAssetEditor.cs using Guid(0939ef1fe67b3477e8058638b5924ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ef214f260132f35cdb1224a9fa15f1') in 0.006224 seconds
-  Import took 0.008463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019357 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexAsset.cs
-  artifactKey: Guid(230603b8982005349912fd5252213d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexAsset.cs using Guid(230603b8982005349912fd5252213d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44123de48aeab30b501fb8e612ed594') in 0.006748 seconds
-  Import took 0.009237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024670 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSolidActorEditor.cs
-  artifactKey: Guid(95f0fdccff5312a4e9be0582f67f2d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSolidActorEditor.cs using Guid(95f0fdccff5312a4e9be0582f67f2d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb32c3c56f29ce2948e4afbbca40d89') in 0.006113 seconds
-  Import took 0.009107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015530 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexArrayAsset.cs
-  artifactKey: Guid(62d596213e856d740b0dd29fd6442abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexArrayAsset.cs using Guid(62d596213e856d740b0dd29fd6442abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31788de6e0f57dd4da9b8b505b0df352') in 0.006156 seconds
-  Import took 0.008336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016041 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexSourceAsset.cs
-  artifactKey: Guid(4a22bdd81895a3a448395e2e88a7b595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexSourceAsset.cs using Guid(4a22bdd81895a3a448395e2e88a7b595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecea499fbea024ca563d1be9972c9d13') in 0.006080 seconds
-  Import took 0.008429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028947 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexParticleController.cs
-  artifactKey: Guid(f1412d6f1170ef044be4671f9441897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexParticleController.cs using Guid(f1412d6f1170ef044be4671f9441897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1421b8ea8ed5f25a845fa9f73ba09') in 0.006275 seconds
-  Import took 0.008448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014835 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexScene.cs
-  artifactKey: Guid(a9f02cdfefeeff74ab2ad7c9ec213973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexScene.cs using Guid(a9f02cdfefeeff74ab2ad7c9ec213973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942d24f3e05cff720d95143fe237b485') in 0.005862 seconds
-  Import took 0.008047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015942 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexSolidActor.cs
-  artifactKey: Guid(f00046cb60512c44ca5b2184d5947ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexSolidActor.cs using Guid(f00046cb60512c44ca5b2184d5947ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809a881438f31eaeafd324628080c6a8') in 0.006227 seconds
-  Import took 0.008451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030310 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexArrayActor.cs
-  artifactKey: Guid(5af3b29d7db32904889ab3c1dcb99c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexArrayActor.cs using Guid(5af3b29d7db32904889ab3c1dcb99c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41419ee0a14a24ab9635b087260bad88') in 0.006139 seconds
-  Import took 0.008384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016175 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexFluidRendererEditor.cs
-  artifactKey: Guid(e23ef6d08e85948449abed36aa381f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexFluidRendererEditor.cs using Guid(e23ef6d08e85948449abed36aa381f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8981e058929e97b824c9f783893705b') in 0.006955 seconds
-  Import took 0.009216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016970 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSoftActorEditor.cs
-  artifactKey: Guid(5797ea53ca3027f40ae99fa2e880bf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSoftActorEditor.cs using Guid(5797ea53ca3027f40ae99fa2e880bf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e36b583e2304e371dda330a45fc6a3') in 0.006219 seconds
-  Import took 0.008475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008070 seconds.
-  path: Assets/NVIDIA/Flex/Resources/Shaders/FlexDrawFluid2.shader
-  artifactKey: Guid(f4dc11f41f8ff354087865a671be50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Resources/Shaders/FlexDrawFluid2.shader using Guid(f4dc11f41f8ff354087865a671be50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e61c5db9b68f0e395f87530f7e9fe41') in 0.006379 seconds
-  Import took 0.009187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016089 seconds.
-  path: Assets/NVIDIA/Flex/Auxiliary/_auxFlexDetectShapes.cs
-  artifactKey: Guid(f3181a4891f70084091111f7e8c82e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Auxiliary/_auxFlexDetectShapes.cs using Guid(f3181a4891f70084091111f7e8c82e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deabd4b0d366dbd1a141c530e912128f') in 0.006664 seconds
-  Import took 0.009259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016772 seconds.
-  path: Assets/Shared/Scripts/ProximityActivate.cs
-  artifactKey: Guid(9dda47b72d39443fcbaff0fcbb5f1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Scripts/ProximityActivate.cs using Guid(9dda47b72d39443fcbaff0fcbb5f1bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd321d7a6d50a388fa73730fa128698') in 0.007424 seconds
-  Import took 0.009851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016462 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSoftSkinningEditor.cs
-  artifactKey: Guid(e92a07d07e1cf424f8e7c44e6c7f7b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSoftSkinningEditor.cs using Guid(e92a07d07e1cf424f8e7c44e6c7f7b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ab7e36e0fb3512bf97c491070c4ca7') in 0.006557 seconds
-  Import took 0.009209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018093 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexClothDeformationEditor.cs
-  artifactKey: Guid(3577cf912ad27e14bb9c8a5c07209a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexClothDeformationEditor.cs using Guid(3577cf912ad27e14bb9c8a5c07209a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0913b1f1e9d6caa05c9e89ce6fb0e13a') in 0.006224 seconds
-  Import took 0.008462 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.4 MB.
+System memory in use after: 150.5 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019060 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Tests/FlexTests.cs
-  artifactKey: Guid(3b070945aec484e40821f95674b602d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Tests/FlexTests.cs using Guid(3b070945aec484e40821f95674b602d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fd4a443d21792f18fbf764f56c6749') in 0.006921 seconds
-  Import took 0.009160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020134 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSourceActorEditor.cs
-  artifactKey: Guid(a0a9239403af5e947bb33d2fde4de8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSourceActorEditor.cs using Guid(a0a9239403af5e947bb33d2fde4de8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdd98d6cb5ac9324ca7ff2ebfd3fa1d') in 0.006843 seconds
-  Import took 0.009691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017354 seconds.
-  path: Assets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs
-  artifactKey: Guid(585901dad4c09564db67dc1e08787f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs using Guid(585901dad4c09564db67dc1e08787f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcb226cb5e0cef6e15e06e1a9fd17e6') in 0.006691 seconds
-  Import took 0.008879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017073 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexBuffer.cs
-  artifactKey: Guid(de4f41134812d5346a740d87e0df6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexBuffer.cs using Guid(de4f41134812d5346a740d87e0df6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f895364187dc9fde8a463590d81d2') in 0.006579 seconds
-  Import took 0.008992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025097 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexEditor.cs
-  artifactKey: Guid(6a70cdca3ad8e0d4ab44745e87ce4af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexEditor.cs using Guid(6a70cdca3ad8e0d4ab44745e87ce4af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5438577baf45f4962113197c0c7dd45') in 0.006550 seconds
-  Import took 0.008904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017800 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexFluidMaterialEditor.cs
-  artifactKey: Guid(d7d6ee32c121a164f9a6aef0890ae466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexFluidMaterialEditor.cs using Guid(d7d6ee32c121a164f9a6aef0890ae466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9a25b540174e0c32a61e1b6fa7975a') in 0.006359 seconds
-  Import took 0.009004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017968 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexArrayActorEditor.cs
-  artifactKey: Guid(39b39d6352f8950418804ba72bd046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexArrayActorEditor.cs using Guid(39b39d6352f8950418804ba72bd046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab522e0945dbb7e43a56ec05ca560a4b') in 0.006669 seconds
-  Import took 0.009132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016528 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexActor.cs
-  artifactKey: Guid(7034d88b557e9c1489e67ff118b623cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexActor.cs using Guid(7034d88b557e9c1489e67ff118b623cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4467e9b46fb4f9c9486106694fdd7e70') in 0.006633 seconds
-  Import took 0.008943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019849 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Tests/FlexExtTests.cs
-  artifactKey: Guid(3a962513131c2244397d67793049ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Tests/FlexExtTests.cs using Guid(3a962513131c2244397d67793049ddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf5e6078d4356812da89b0f09b9e938') in 0.006694 seconds
-  Import took 0.009069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018409 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexSourceAssetEditor.cs
-  artifactKey: Guid(88e4360aadc8e9d4497b38765225b785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexSourceAssetEditor.cs using Guid(88e4360aadc8e9d4497b38765225b785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1b4bec6a6ad27dab41edaf195f9714') in 0.006393 seconds
-  Import took 0.009062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018221 seconds.
-  path: Assets/NVIDIA/Flex/Helpers/FlexSoftSkinning.cs
-  artifactKey: Guid(17add574727e0b84ca0c004035e2bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Helpers/FlexSoftSkinning.cs using Guid(17add574727e0b84ca0c004035e2bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0d7bad41b6c25fc283b83deec70b94') in 0.006507 seconds
-  Import took 0.008784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017941 seconds.
-  path: Assets/NVIDIA/Flex/Native/FlexUtils.cs
-  artifactKey: Guid(6e8beadc42a30284d8346c7d35f5adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Native/FlexUtils.cs using Guid(6e8beadc42a30284d8346c7d35f5adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3af274d5314fbaecd35515025c1d77') in 0.006542 seconds
-  Import took 0.009076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016144 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexSolidAsset.cs
-  artifactKey: Guid(461adf82cf1f1a248af57734e067d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexSolidAsset.cs using Guid(461adf82cf1f1a248af57734e067d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52e1b4221d76d62376679dfe1f3c17') in 0.006825 seconds
-  Import took 0.009843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017251 seconds.
-  path: Assets/NVIDIA/Flex/Auxiliary/_auxFlexDrawParticles.cs
-  artifactKey: Guid(34fe1567e46251442bc0f858cb97656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Auxiliary/_auxFlexDrawParticles.cs using Guid(34fe1567e46251442bc0f858cb97656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2690f30a6a70a4e6acb6e26b1ec86c3') in 0.007846 seconds
-  Import took 0.010151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023929 seconds.
-  path: Assets/NVIDIA/Flex/Actors/FlexSourceActor.cs
-  artifactKey: Guid(5c98aa481050edb4ca1850cb5c2953ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Actors/FlexSourceActor.cs using Guid(5c98aa481050edb4ca1850cb5c2953ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9710d7ac2a38aa5565ecf57b600d27') in 0.006518 seconds
-  Import took 0.009234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018361 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexActorEditor.cs
-  artifactKey: Guid(67a95906b5fcf7b4fa80541d95085ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexActorEditor.cs using Guid(67a95906b5fcf7b4fa80541d95085ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e127439e1ef3c5fbc1b13036c8be3285') in 0.006619 seconds
-  Import took 0.008936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032996 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexSoftAsset.cs
-  artifactKey: Guid(9f4f6c478d4a1e845b3319d5e737f6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexSoftAsset.cs using Guid(9f4f6c478d4a1e845b3319d5e737f6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cba8717d9dcec048abcb95824d081f') in 0.006578 seconds
-  Import took 0.009417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033189 seconds.
-  path: Assets/NVIDIA/Flex/Auxiliary/_auxFlexDrawFluid.cs
-  artifactKey: Guid(483682e7f4c6bdc45a42dca8170fe5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Auxiliary/_auxFlexDrawFluid.cs using Guid(483682e7f4c6bdc45a42dca8170fe5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed24f83f5a25503f34e62259041f281') in 0.006813 seconds
-  Import took 0.009388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015656 seconds.
-  path: Assets/Shared/Scripts/AdjustTimeScale.cs
-  artifactKey: Guid(57a9bba4c7c6adc40805917ce487896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shared/Scripts/AdjustTimeScale.cs using Guid(57a9bba4c7c6adc40805917ce487896a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1568ec5355fe0393192de514ee879e53') in 0.007198 seconds
-  Import took 0.009412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019380 seconds.
-  path: Assets/NVIDIA/Flex/Assets/FlexContainer.cs
-  artifactKey: Guid(3f2b44126ff4eb34e941cfec7bfae3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Assets/FlexContainer.cs using Guid(3f2b44126ff4eb34e941cfec7bfae3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75460b7066d820ee68ad5938c0dc3d24') in 0.005942 seconds
-  Import took 0.008138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023301 seconds.
-  path: Assets/NVIDIA/Flex/Native/Flex.cs
-  artifactKey: Guid(a928dfe2ddbbf714bacd8621288244a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Native/Flex.cs using Guid(a928dfe2ddbbf714bacd8621288244a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc346dd43f7a4d44406781286d03fb0') in 0.002925 seconds
-  Import took 0.005181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018277 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexArrayAssetEditor.cs
-  artifactKey: Guid(11ade51a06916054bae1c6839251ddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexArrayAssetEditor.cs using Guid(11ade51a06916054bae1c6839251ddc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df74bb0501f23e9dec7d67a1c99b864e') in 0.007518 seconds
-  Import took 0.010236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015832 seconds.
-  path: Assets/NVIDIA/Flex/Editor/Editors/FlexContainerEditor.cs
-  artifactKey: Guid(a28489b5199da9943a48641fd534cc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Editor/Editors/FlexContainerEditor.cs using Guid(a28489b5199da9943a48641fd534cc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f446bdba26d7978d51a4a2eaa8d9ede') in 0.005875 seconds
-  Import took 0.008263 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 2.298400 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.953300 ms  DeleteObjects: 0.120500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020128 seconds.
-  path: Assets/NVIDIA/Flex/Native/FlexExt.cs
-  artifactKey: Guid(77f67836630b7fd489383416ca214e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NVIDIA/Flex/Native/FlexExt.cs using Guid(77f67836630b7fd489383416ca214e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773e0b9879d8cff864f89dc64181c7b4') in 0.005773 seconds
-  Import took 0.007965 seconds .
+  Time since last request: 32.903626 seconds.
+  path: Assets/Scenes/Lighting Stuff
+  artifactKey: Guid(f1c25cae5d366b94bba0899612a4ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lighting Stuff using Guid(f1c25cae5d366b94bba0899612a4ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb596ce244a8bbc188b5855bb0fc27b') in 0.009321 seconds
+  Import took 0.012410 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

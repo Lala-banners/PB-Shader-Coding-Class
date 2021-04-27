@@ -3,7 +3,10 @@ Shader "Unlit/Lighting"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _Gloss ("Gloss", float) = 1
+        _Gloss ("Gloss", Range(0, 1)) = 1
+        _Color("Color", Color) = (1, 1, 1, 1)
+        _GlowMagnitude("glowMagnitude", Range(0, 1)) = 0.5
+        _GlowFrequency("glowFrequency", Range(0, 1)) = 0.5
     }
     SubShader
     {
@@ -38,9 +41,14 @@ Shader "Unlit/Lighting"
                 float3 wPos  :  TEXCOORD2;
             };
 
+            //DECLARE STUFF
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            float4 _Color;
             float _Gloss;
+            float _GlowMagnitude;
+            float _GlowFrequency;
+
 
             v2f vert (appdata v)
             {
@@ -61,39 +69,38 @@ Shader "Unlit/Lighting"
                 //UNITY_APPLY_FOG(i.fogCoord, col);
                 // REMOVED
 
-                float3 N = i.normal;
-
-                // (a) direction
+                //DIFFUSE LIGHT
+                float3 N = normalize(i.normal);
                 //Face away from Z axis = B
                 //Face Away from X axis = R
                 //Face Away from Y axis = G
                 //Between axis = extra colours
-                float3 L = _WorldSpaceLightPos0.xyz;
-                //Have lighting, as object faces away from light it gets darker
-                //Clamp 01, dot gives lighting calculation and multiplying with light
-                float3 diffuseLight = saturate(dot(N, L)) * _LightColor0.xyz;
+                float3 L = _WorldSpaceLightPos0.xyz; // (a) direction
+                float3 lambert = saturate(dot(N, L));
+                float3 diffuseLight = lambert * _LightColor0.xyz; //Have lighting, as object faces away from light it gets darker
 
-                //Secular Lighting (a - b)
+                //SPECULAR LIGHTING
                 float3 V = normalize(_WorldSpaceCameraPos - i.wPos); //Give position of camera minus world 
-                float3 R = reflect(-L, N); //Reflection
-                float specularLight = saturate(dot(V, R));
-                specularLight = pow(specularLight, _Gloss); //Specular exponent
+                //float3 R = reflect(-L, N); //Reflection
+                float3 H = normalize(L + V);
+                float3 specularLight = saturate(dot(H, N)); //* (lambert > 0);
+                float specularExponent = exp2(_Gloss * 11) + 2;
+                specularLight = pow(specularLight, specularExponent) * _Gloss; //Specular exponent
+                specularLight *= _LightColor0.xyz; //To make specular light have colour
 
-                //when move camera, colours change
-                //return float4(V, 1);
-                
-                //Activate reflection
-                //return float4(R, 1);
+                //return float4(V, 1); //when move camera, colours change
+                //return float4(R, 1); //Activate reflection
+                //return float4(diffuseLight + specularLight.xxx, 1); //Activate reflection light thing
 
-                //Activate eclipse mode
-                return float4(specularLight.xxx, 1);
+                //FRESNAL EFFECT
+                float fresnel = (1 - dot(V, N)) * (cos(_Time.y * 4)) * _GlowMagnitude + _GlowFrequency;
+                //return fresnel;
 
-                //Activate normals
-                //return float4(N, 1); 
+                //Return Half vector
+                return float4(diffuseLight * _Color + specularLight + fresnel, 1);
 
-                //When move objects, colours change
-                return float4(diffuseLight, 1);
-                
+                //return float4(N, 1); //Activate normals
+                //return float4(diffuseLight, 1); //When move objects, colours change
             }
             ENDCG
         }

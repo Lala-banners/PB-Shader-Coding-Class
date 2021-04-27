@@ -23,6 +23,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
+    m_Floats:
+    - _Gloss: 1
+    - _GlowFrequency: 0.52
+    - _GlowMagnitude: 0.15
+    - _glowFreq: 0.47
+    - _glowMag: 0.17
+    - _glowfreq: 0.5
+    - _glowmag: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []

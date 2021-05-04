@@ -39,7 +39,10 @@ public class GrowVines : MonoBehaviour
 
     private void Update()
     {
-        MagicGrow();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            MagicGrow();
+        }
     }
 
     public void MagicGrow()

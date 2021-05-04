@@ -259,6 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4677278615227349526}
   - component: {fileID: 4677278615242993334}
+  - component: {fileID: 3795221361655106906}
   m_Layer: 0
   m_Name: Umbrella
   m_TagString: Untagged
@@ -315,6 +316,20 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4677278615225579760}
   m_Enabled: 1
+--- !u!64 &3795221361655106906
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4677278615227835958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 749893d2eefe544fa9e84282bae1e34c, type: 3}
 --- !u!1 &4677278615227835966
 GameObject:
   m_ObjectHideFlags: 0

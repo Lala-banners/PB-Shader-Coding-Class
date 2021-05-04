@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 32645 MB
+OS: 'Windows 10 Pro; OS build 19042.964; Version 2009; 64bit' Language: 'en' Physical Memory: 32645 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59502
+61237
 Successfully changed project path to: C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.47 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 37.20 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,209 +35,1929 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002430 seconds.
+Registered in 0.002433 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.47 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 57.36 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.249 seconds
+- Completed reload, in  1.231 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002651 seconds.
+Registered in 0.002615 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
+- Completed reload, in  0.900 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.7 MB.
+System memory in use after: 150.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.905700 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.530800 ms  DeleteObjects: 0.101000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SHADER CODING/LightingMat.mat
+  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303d6968f37eccc5fb45e6e07f24ea2c') in 0.117274 seconds
+  Import took 0.119605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4415.804637 seconds.
+  path: Assets/ParticleSystemsPackage.unitypackage
+  artifactKey: Guid(989c32d855a9c344eb4998e142fb734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSystemsPackage.unitypackage using Guid(989c32d855a9c344eb4998e142fb734c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ded4523d27fa7544bcbfe2e50a65d4') in 0.012028 seconds
+  Import took 0.015706 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 1.524800 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.284800 ms  DeleteObjects: 0.064400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.270293 seconds.
+  path: Assets/Particle Systems/Fireworks/Firework-swoosh-sound-effect.mp3
+  artifactKey: Guid(a06988095b5e1f24cb4d3c490ae076cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Firework-swoosh-sound-effect.mp3 using Guid(a06988095b5e1f24cb4d3c490ae076cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a0420431eb7fe5c51f47ae975e07d') in 0.096736 seconds
+  Import took 0.099165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Particle Systems/Fireworks/Rocket.mat
+  artifactKey: Guid(62a4a39f73a9b924391fc5924ed932bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Rocket.mat using Guid(62a4a39f73a9b924391fc5924ed932bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb2cfadb69a8d54a52e999520456ca5') in 0.030946 seconds
+  Import took 0.033050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Particle Systems/Fireworks
+  artifactKey: Guid(baba5c9ced02b9446b551676b852c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks using Guid(baba5c9ced02b9446b551676b852c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a25374dd644005092dc11649e4cfca6') in 0.006569 seconds
+  Import took 0.008822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Particle Systems/Fireworks/Fireworks.unity
+  artifactKey: Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Fireworks.unity using Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd702f1cf31645ab89b0805b826d483') in 0.007236 seconds
+  Import took 0.009484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Particle Systems/Fireworks/Fireworks.mixer
+  artifactKey: Guid(b466388fef4099048b532341f7376b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Fireworks.mixer using Guid(b466388fef4099048b532341f7376b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268011ed77231a9f69b61b06b5b77129') in 0.006876 seconds
+  Import took 0.009048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Particle Systems/Fireworks/Sparkles.png
+  artifactKey: Guid(18ef763f37c57b948bc1fa0c896d3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Sparkles.png using Guid(18ef763f37c57b948bc1fa0c896d3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd61da1088cf053a0b67b33f322e55d') in 0.033719 seconds
+  Import took 0.035844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Particle Systems
+  artifactKey: Guid(ea6bc64eaf111e440a760a6ed0216417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems using Guid(ea6bc64eaf111e440a760a6ed0216417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7917dc41c13581f03ac74364891085c5') in 0.006931 seconds
+  Import took 0.009731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Particle Systems/Fireworks/FireWorks-With-Crackling-www.fesliyanstudios.com.mp3
+  artifactKey: Guid(6d625c3486465584a8dca7c1c2ffb9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/FireWorks-With-Crackling-www.fesliyanstudios.com.mp3 using Guid(6d625c3486465584a8dca7c1c2ffb9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3b7658c0462c413f8888befdbb072a') in 0.011747 seconds
+  Import took 0.013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Particle Systems/Fireworks/Firework-swoosh-sound-effect.mp3
+  artifactKey: Guid(a06988095b5e1f24cb4d3c490ae076cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Firework-swoosh-sound-effect.mp3 using Guid(a06988095b5e1f24cb4d3c490ae076cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a0420431eb7fe5c51f47ae975e07d') in 0.007221 seconds
+  Import took 0.009345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Particle Systems/Fireworks/Trail.mat
+  artifactKey: Guid(5ec19b9d478c9104f881a431ab3e81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Trail.mat using Guid(5ec19b9d478c9104f881a431ab3e81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0af8f2c4f5892bdd0615cfe380c170') in 0.013942 seconds
+  Import took 0.016045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.882890 seconds.
+  path: Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity
+  artifactKey: Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity using Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff6d5fe522a580ded0eb501a5c8cfb') in 0.003754 seconds
+  Import took 0.006034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001559 seconds.
+  path: Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity
+  artifactKey: Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity using Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff6d5fe522a580ded0eb501a5c8cfb') in 0.003288 seconds
+  Import took 0.005626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.812334 seconds.
+  path: Assets/ShadersPackage.unitypackage
+  artifactKey: Guid(0477707084e02ae49b9417c778214f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShadersPackage.unitypackage using Guid(0477707084e02ae49b9417c778214f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2d9a343f777a0a6a59ba017906f656') in 0.007394 seconds
+  Import took 0.009539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/ShadersPackage.unitypackage
+  artifactKey: Guid(0477707084e02ae49b9417c778214f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShadersPackage.unitypackage using Guid(0477707084e02ae49b9417c778214f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2d9a343f777a0a6a59ba017906f656') in 0.002982 seconds
+  Import took 0.005546 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.6 MB.
-System memory in use after: 150.7 MB.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.2 MB.
+System memory in use after: 151.3 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 2.157700 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.845000 ms  DeleteObjects: 0.104900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8781c45bec079fe3cd8616e0fb61bf49') in 0.120017 seconds
-  Import took 0.122931 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 1.744800 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.496200 ms  DeleteObjects: 0.066400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 228.590678 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc1708e3dcc6a4476dcc30d32f4d970') in 0.011343 seconds
-  Import took 0.015188 seconds .
+  Time since last request: 19.408385 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(618efddf847fc5f45873bdfbd0255870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(618efddf847fc5f45873bdfbd0255870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d0a0a9e82b058f7ff062bf8907643b') in 0.009336 seconds
+  Import took 0.011737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003623 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc1708e3dcc6a4476dcc30d32f4d970') in 0.003020 seconds
-  Import took 0.006612 seconds .
+  Time since last request: 1.779180 seconds.
+  path: Assets/Shaders/Grow Vines
+  artifactKey: Guid(965aae62679e8b44ea668ed6ed4b5588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines using Guid(965aae62679e8b44ea668ed6ed4b5588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebd959f760f0414b3789396301243da') in 0.007766 seconds
+  Import took 0.010485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5724.053931 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdaecff45f5df3237695b2847a30a81') in 0.012297 seconds
-  Import took 0.016235 seconds .
+  Time since last request: 1.299802 seconds.
+  path: Assets/Shaders/Grow Vines/Enemy.fbx
+  artifactKey: Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Enemy.fbx using Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc647a14ce3f95e4c944cdfa7dd092') in 0.130979 seconds
+  Import took 0.133550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.108267 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7819402bbe00905e07f55590e35f4962') in 0.008950 seconds
-  Import took 0.011817 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Shaders/Grow Vines/Vines.mat
+  artifactKey: Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vines.mat using Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd94b2e5a98fc7b32893a30f7bfa694d') in 0.011327 seconds
+  Import took 0.013334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.346778 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e779caeedee2ff1f0f343173549d08') in 0.007641 seconds
-  Import took 0.009924 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Shaders/Grow Vines/Wizard.fbx
+  artifactKey: Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Wizard.fbx using Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1ce50bf885bf3265aaa89487cd19d8') in 0.042629 seconds
+  Import took 0.044953 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 179.709622 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5009e5d64f3b5d8bb35363c0168f73') in 0.008382 seconds
-  Import took 0.011565 seconds .
+  Time since last request: 0.000295 seconds.
+  path: Assets/Shaders/Grow Vines/Vine.fbx
+  artifactKey: Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vine.fbx using Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5021a41107be8ad4923e6d6297c65985') in 0.014900 seconds
+  Import took 0.016994 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.974349 seconds.
-  path: Assets/SHADER CODING/NewUnlitShader.shader
-  artifactKey: Guid(a9de16432a2e24b44886965bdbf0729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/NewUnlitShader.shader using Guid(a9de16432a2e24b44886965bdbf0729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3ba7379117f0a5dbd610b27c4cd31b') in 0.008867 seconds
-  Import took 0.012218 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Shaders/Grow Vines/Ground.mat
+  artifactKey: Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Ground.mat using Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26193aacd01e31202b276bad54a6c194') in 0.011373 seconds
+  Import took 0.013516 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.427664 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d4cfd5a97c7f652eb5dafa1215106') in 0.017129 seconds
-  Import took 0.020677 seconds .
+  Time since last request: 2.492364 seconds.
+  path: Assets/Shaders/Grow Vines/GrowVines.unity
+  artifactKey: Guid(8de6822b9e44a034bbc6072cc732350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/GrowVines.unity using Guid(8de6822b9e44a034bbc6072cc732350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bbd15b6bc6295cddf4b9a8f35cc7eb') in 0.007890 seconds
+  Import took 0.010066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 203.79 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.442 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.2 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 3125.
+Total: 10.616400 ms (FindLiveObjects: 0.600300 ms CreateObjectMapping: 0.352600 ms MarkObjects: 4.645900 ms  DeleteObjects: 5.015100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.594948 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b17b8128a1b2b70fb35785c225dde85') in 0.008585 seconds
-  Import took 0.011391 seconds .
+  Time since last request: 162.081396 seconds.
+  path: Assets/Shaders/Grow Vines/Enemy.fbx
+  artifactKey: Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Enemy.fbx using Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aec1ac7f85eb7217fd78029ff15dd1') in 0.111717 seconds
+  Import took 0.116025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 740.346256 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c79526fb241687456b4d444bb37dfe') in 0.008377 seconds
-  Import took 0.012379 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Shaders/Grow Vines/Vines.mat
+  artifactKey: Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vines.mat using Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7dcc2820b1f27187c1e8cee216f89f') in 0.018565 seconds
+  Import took 0.022348 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001975 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c79526fb241687456b4d444bb37dfe') in 0.003613 seconds
-  Import took 0.006826 seconds .
+  Time since last request: 0.000293 seconds.
+  path: Assets/Shaders/Grow Vines/Wizard.fbx
+  artifactKey: Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Wizard.fbx using Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b1dce8115af59b1aae44f050da303') in 0.032848 seconds
+  Import took 0.036381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.654417 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6616b7dd352c9523dc43260e6263cd3') in 0.002946 seconds
-  Import took 0.005163 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/Shaders/Grow Vines/Vine.fbx
+  artifactKey: Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vine.fbx using Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bbd2b057bcd923bbec36d10524fe45') in 0.012547 seconds
+  Import took 0.015805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.709387 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab078979cff38b5d5bbb2249f797bf8') in 0.002853 seconds
-  Import took 0.005615 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Shaders/Grow Vines/Ground.mat
+  artifactKey: Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Ground.mat using Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54c76cef04da2051ef6e53a3fb91900') in 0.009669 seconds
+  Import took 0.013006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.441844 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2195417c7a3ac769a0229d9452ec4bc') in 0.002714 seconds
-  Import took 0.005260 seconds .
+  Time since last request: 38.363543 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(5fce0302629cdf649a640898d3dc9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(5fce0302629cdf649a640898d3dc9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dfae8ccf78617133bae72e74c5050d') in 0.046819 seconds
+  Import took 0.051547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.777669 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489b515fd7f167bd23f92acf83e77fa5') in 0.003006 seconds
-  Import took 0.005910 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(5bab0c882a96d584f941f0b9a6b750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(5bab0c882a96d584f941f0b9a6b750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780dabb6daa77dd18f4e321ff32e8faa') in 0.040982 seconds
+  Import took 0.045169 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.09 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.8 MB.
+System memory in use after: 149.7 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 8.392200 ms (FindLiveObjects: 0.604300 ms CreateObjectMapping: 0.415800 ms MarkObjects: 4.849700 ms  DeleteObjects: 2.520000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.332664 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58462488cf8d0d74b8767bcbd6688b53') in 0.002739 seconds
-  Import took 0.005678 seconds .
+  Time since last request: 15.182417 seconds.
+  path: Assets/Main Camera Profile.asset
+  artifactKey: Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Camera Profile.asset using Guid(a2c5621595413ca4a81d437f1d534aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5717f7cba6ac606bb0a9f0b1df71797') in 0.021171 seconds
+  Import took 0.025219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.616295 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a290f7b8ee166606096db8ce131c1c') in 0.002879 seconds
-  Import took 0.005702 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(5fce0302629cdf649a640898d3dc9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(5fce0302629cdf649a640898d3dc9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae8666efa40eca6856ea9de733bc128') in 0.010246 seconds
+  Import took 0.016922 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 158.016372 seconds.
-  path: Assets/SHADER CODING/Lighting.shader
-  artifactKey: Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/Lighting.shader using Guid(65f2f42169b4de7429d341a5cc2b5887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ce01f4f10026fa27f332915f373095') in 0.009745 seconds
-  Import took 0.017563 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(5bab0c882a96d584f941f0b9a6b750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(5bab0c882a96d584f941f0b9a6b750ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29911ddc5b20b1d5a31605fd4e666c78') in 0.005118 seconds
+  Import took 0.009323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.588716 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795088d6dc99be71d8fd521d27ec6a2d') in 0.024981 seconds
-  Import took 0.031395 seconds .
+  Time since last request: 4.020573 seconds.
+  path: Assets/Particle Systems/Fireworks/Fireworks.mixer
+  artifactKey: Guid(b466388fef4099048b532341f7376b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Fireworks.mixer using Guid(b466388fef4099048b532341f7376b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e816a4c546dced8d551592f94e81af8') in 0.006731 seconds
+  Import took 0.010485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.672266 seconds.
-  path: Assets/SHADER CODING/LightingMat.mat
-  artifactKey: Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SHADER CODING/LightingMat.mat using Guid(7a8c3dbfeb906fc4781487a3ca07ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81cc17c350968f7dfa2369e6ed1434') in 0.025447 seconds
-  Import took 0.044880 seconds .
+  Time since last request: 0.000297 seconds.
+  path: Assets/Particle Systems/Fireworks/Rocket.mat
+  artifactKey: Guid(62a4a39f73a9b924391fc5924ed932bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Rocket.mat using Guid(62a4a39f73a9b924391fc5924ed932bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3fb64546f2def0ce73cd81d9900753') in 0.165304 seconds
+  Import took 0.168781 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Particle Systems/Fireworks/Trail.mat
+  artifactKey: Guid(5ec19b9d478c9104f881a431ab3e81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Trail.mat using Guid(5ec19b9d478c9104f881a431ab3e81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1792c1571f25829c9f78538f17362912') in 0.012088 seconds
+  Import took 0.016073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.636833 seconds.
+  path: Assets/Particle Systems/Fireworks/Fireworks.unity
+  artifactKey: Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Fireworks.unity using Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cae72d647b9dc5a8d6de4f9d0dd573') in 0.006812 seconds
+  Import took 0.010768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/Particle Systems/Fireworks/Fireworks.unity
+  artifactKey: Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Fireworks/Fireworks.unity using Guid(6c54e2ee5838bbb4c9b0156258df0a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cae72d647b9dc5a8d6de4f9d0dd573') in 0.003347 seconds
+  Import took 0.006899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.287941 seconds.
+  path: Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity
+  artifactKey: Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Rainbow Tornado/Rainbonado.unity using Guid(ca79f52a8c85aff44a3dd6d13205e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6d1adcc1cb46d52098cd2a79ba3eba') in 0.007920 seconds
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.547056 seconds.
+  path: Assets/ART/Particle Attractor by Moonflower Carnivore/Materials/glow_dot_add.mat
+  artifactKey: Guid(25bd086592405bc4b85fb8280fe53759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Particle Attractor by Moonflower Carnivore/Materials/glow_dot_add.mat using Guid(25bd086592405bc4b85fb8280fe53759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbadfb117ae54e1c69ab5e3997b408a') in 0.016248 seconds
+  Import took 0.020093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.151384 seconds.
+  path: Assets/Shaders/Bubble
+  artifactKey: Guid(021ad77f9f3852e48aaba94f6a270fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bubble using Guid(021ad77f9f3852e48aaba94f6a270fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a28730fdd8de3f33a30832a8136c10') in 0.009122 seconds
+  Import took 0.013650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001664 seconds.
+  path: Assets/Shaders/Bubble
+  artifactKey: Guid(021ad77f9f3852e48aaba94f6a270fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bubble using Guid(021ad77f9f3852e48aaba94f6a270fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a28730fdd8de3f33a30832a8136c10') in 0.004077 seconds
+  Import took 0.008416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974230 seconds.
+  path: Assets/Shaders/Bubble/Bubble.unity
+  artifactKey: Guid(75e06930609a41745a01144cee8a8b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bubble/Bubble.unity using Guid(75e06930609a41745a01144cee8a8b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b13d4f4c9d0b5bf956570a73dd3a3e6') in 0.009304 seconds
+  Import took 0.013603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.624057 seconds.
+  path: Assets/Shaders/Bubble/Bubble Graph/bubble.mat
+  artifactKey: Guid(cec0b2c714b441240b98d7c904818225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bubble/Bubble Graph/bubble.mat using Guid(cec0b2c714b441240b98d7c904818225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46c066a8b7b78c67f7507633dc24703') in 0.041194 seconds
+  Import took 0.045083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.145594 seconds.
+  path: Assets/Shaders/Dissolve/DissolveMat.mat
+  artifactKey: Guid(73f96e2d73be78f40b718d2045a03e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Dissolve/DissolveMat.mat using Guid(73f96e2d73be78f40b718d2045a03e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1202
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1202
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 85
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON _SCREEN_SPACE_OCCLUSION LIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_OFF _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1202
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 85
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON _SCREEN_SPACE_OCCLUSION LIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_OFF _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 892
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Dissolve': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1202
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'f0c36c500d37710783360cffb7806169') in 0.034059 seconds
+  Import took 0.038110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864174 seconds.
+  path: Assets/Shaders/Dissolve/Dissolve.unity
+  artifactKey: Guid(60a3374069a4f0f41866c0e71eabfa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Dissolve/Dissolve.unity using Guid(60a3374069a4f0f41866c0e71eabfa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a919af31e7f43377826159158d1b6287') in 0.007789 seconds
+  Import took 0.011942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001253 seconds.
+  path: Assets/Shaders/Dissolve/Dissolve.unity
+  artifactKey: Guid(60a3374069a4f0f41866c0e71eabfa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Dissolve/Dissolve.unity using Guid(60a3374069a4f0f41866c0e71eabfa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a919af31e7f43377826159158d1b6287') in 0.002948 seconds
+  Import took 0.006640 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004281 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.4 MB.
+System memory in use after: 199.3 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 3.706600 ms (FindLiveObjects: 0.336800 ms CreateObjectMapping: 0.114500 ms MarkObjects: 1.968800 ms  DeleteObjects: 1.285300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.388185 seconds.
+  path: Assets/Shaders/Grow Vines/Enemy.fbx
+  artifactKey: Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Enemy.fbx using Guid(4af04184a5056464bb8dc443a83b43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'cfa87b0e044df3f7fdf82fb703f1e6f3') in 0.227466 seconds
+  Import took 0.231636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Shaders/Grow Vines/Vines.mat
+  artifactKey: Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vines.mat using Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '66b8b5037ab3958cb43c6865f6727c67') in 0.019287 seconds
+  Import took 0.023102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Shaders/Grow Vines/Wizard.fbx
+  artifactKey: Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Wizard.fbx using Guid(39a27a7a62a298a4c8f45f1a3833d4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a942eb54aa5fec6dc35ee4387db43f') in 0.040331 seconds
+  Import took 0.044628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Shaders/Grow Vines/Ground.mat
+  artifactKey: Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Ground.mat using Guid(3f5191410b6d3fb45a0e1892d18e6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 102
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '96762302f27eb7ee1de180096bb30377') in 0.020255 seconds
+  Import took 0.024166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.323248 seconds.
+  path: Assets/Shaders/Plasma Ball/Point Light.prefab
+  artifactKey: Guid(9348155229fd563438ccaa14405b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Plasma Ball/Point Light.prefab using Guid(9348155229fd563438ccaa14405b7f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de36506c4fe18664009cf1d7486220e2') in 0.009559 seconds
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Shaders/Plasma Ball/Sparky.mat
+  artifactKey: Guid(250f47296afa2434cb85fe97bbd76687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Plasma Ball/Sparky.mat using Guid(250f47296afa2434cb85fe97bbd76687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1588
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1588
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1211
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1588
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1211
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Sparky': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1588
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '51591dce298f299f731f2e3703055198') in 0.025974 seconds
+  Import took 0.030525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.016667 seconds.
+  path: Assets/Shaders/Water/WaterMat.mat
+  artifactKey: Guid(9064ff0ac13a5864eb88d24bfb581d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/WaterMat.mat using Guid(9064ff0ac13a5864eb88d24bfb581d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1001
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1001
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 89
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON _SCREEN_SPACE_OCCLUSION LIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_OFF _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1001
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 89
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON _SCREEN_SPACE_OCCLUSION LIGHTMAP_ON DIRLIGHTMAP_COMBINED _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_OFF _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/Water': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1001
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '85e6883374b69c93c5366bfe1e99c77b') in 0.026562 seconds
+  Import took 0.030528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596848 seconds.
+  path: Assets/Shaders/Water/Water.unity
+  artifactKey: Guid(539c654763fd3ee40aedd4e4f91e5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Water.unity using Guid(539c654763fd3ee40aedd4e4f91e5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486a5c7a95533c3f192bc5c0502486e9') in 0.007221 seconds
+  Import took 0.011151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Shaders/Water/Water.unity
+  artifactKey: Guid(539c654763fd3ee40aedd4e4f91e5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water/Water.unity using Guid(539c654763fd3ee40aedd4e4f91e5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486a5c7a95533c3f192bc5c0502486e9') in 0.003330 seconds
+  Import took 0.007395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.913836 seconds.
+  path: Assets/Shaders/Plasma Ball/Electricity.unity
+  artifactKey: Guid(56e9222b05749164a9ba9dac80e01fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Plasma Ball/Electricity.unity using Guid(56e9222b05749164a9ba9dac80e01fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419f36d1b148ddc76d7d6d78b381643') in 0.008693 seconds
+  Import took 0.012630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.975118 seconds.
+  path: Assets/Shaders/Grow Vines/GrowVines.unity
+  artifactKey: Guid(8de6822b9e44a034bbc6072cc732350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/GrowVines.unity using Guid(8de6822b9e44a034bbc6072cc732350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b2803b8b1a8888990876c0a255bc76') in 0.008096 seconds
+  Import took 0.012489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.945143 seconds.
+  path: Assets/Shaders/Grow Vines/Vine.fbx
+  artifactKey: Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vine.fbx using Guid(2323ce36601f23b449b0d773cedabbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a5bef9df9cc1488835ce696858b202') in 0.016676 seconds
+  Import took 0.020921 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.8 MB.
+System memory in use after: 199.9 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3278.
+Total: 6.121400 ms (FindLiveObjects: 0.810300 ms CreateObjectMapping: 0.342400 ms MarkObjects: 3.776900 ms  DeleteObjects: 1.189700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.418471 seconds.
+  path: Assets/Shaders/Grow Vines/Vines.mat
+  artifactKey: Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Grow Vines/Vines.mat using Guid(9486cce9d90c81842a6fb23288d9372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Simple Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl'. at line 134
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '7d5db69a1182e7a15449d63d56e8c141') in 0.169120 seconds
+  Import took 0.173051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.350457 seconds.
+  path: Assets/Particle Systems/Heal/Floor.mat
+  artifactKey: Guid(44843f2f8fa1c1640ae1f9c749d9ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Heal/Floor.mat using Guid(44843f2f8fa1c1640ae1f9c749d9ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '111ec03bb027a4176c8cdc0926c4f798') in 0.019976 seconds
+  Import took 0.023712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Particle Systems/Heal/Magic Heal.fbx
+  artifactKey: Guid(1aa2ee84950089440adf00794a14a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Heal/Magic Heal.fbx using Guid(1aa2ee84950089440adf00794a14a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57b7a7ee5c4c3ba84f22c66f0e98566') in 0.065796 seconds
+  Import took 0.069932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.218062 seconds.
+  path: Assets/Particle Systems/Heal/Heal.unity
+  artifactKey: Guid(a394359b6c0d56748af292f26a5fd1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Systems/Heal/Heal.unity using Guid(a394359b6c0d56748af292f26a5fd1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f247ee1483007ff5925a69a02db44ce4') in 0.007957 seconds
+  Import took 0.011655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.106126 seconds.
+  path: Assets/WATER SIMULATION/Cubes.prefab
+  artifactKey: Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Cubes.prefab using Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c800cdbc314c0a3d6f53a41b77a8f9ff') in 0.015397 seconds
+  Import took 0.019642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/WATER SIMULATION/Flex Source.prefab
+  artifactKey: Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Flex Source.prefab using Guid(8522dafe9ebef7b468ad619112d2e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020d6ed4c0a923f1a9e6820a6900c54c') in 0.028466 seconds
+  Import took 0.032158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/WATER SIMULATION/Flex Array.prefab
+  artifactKey: Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Flex Array.prefab using Guid(111f94e0d5f085d41be2f1aeaa75e671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26608c3ca419ef4a270a33486ed9e54e') in 0.021676 seconds
+  Import took 0.025600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968480 seconds.
+  path: Assets/WATER SIMULATION/Water Simulation.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Water Simulation.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c307acd1226402c9df8de3fc47436a8') in 0.008673 seconds
+  Import took 0.012475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.692407 seconds.
+  path: Assets/NVIDIA/Flex/Resources/Materials/DebugParticles.mat
+  artifactKey: Guid(6040b80dca2089c4482bdb21543fba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NVIDIA/Flex/Resources/Materials/DebugParticles.mat using Guid(6040b80dca2089c4482bdb21543fba07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2d85e98badf3862e27895a73dfc92') in 0.014866 seconds
+  Import took 0.018506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.1 MB.
+System memory in use after: 200.2 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 3.735300 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.166600 ms MarkObjects: 2.025800 ms  DeleteObjects: 1.229700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.847802 seconds.
+  path: Assets/WATER SIMULATION/Cubes.mat
+  artifactKey: Guid(0d0b58b900941694ebdb775d45fdec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Cubes.mat using Guid(0d0b58b900941694ebdb775d45fdec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'd834087cdd56458061a2d02f214249bd') in 0.171041 seconds
+  Import took 0.174968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.869506 seconds.
+  path: Assets/WATER SIMULATION/Cubes.mat
+  artifactKey: Guid(0d0b58b900941694ebdb775d45fdec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Cubes.mat using Guid(0d0b58b900941694ebdb775d45fdec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb8ad57757213d9c64dfa89175c4ff9') in 0.011672 seconds
+  Import took 0.015403 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.7 MB.
+System memory in use after: 199.7 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3356.
+Total: 6.190900 ms (FindLiveObjects: 0.591100 ms CreateObjectMapping: 0.262800 ms MarkObjects: 3.204000 ms  DeleteObjects: 2.130900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.569820 seconds.
+  path: Assets/WATER SIMULATION/Cubes.prefab
+  artifactKey: Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Cubes.prefab using Guid(55667945730a11b44b8d69fb47e554b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '94ad398e8643fea2ad0b122037877b64') in 0.168335 seconds
+  Import took 0.172507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.357190 seconds.
+  path: Assets/Beach Essentials/Materials
+  artifactKey: Guid(8bb79b4c2ac9846548b1008429cadd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Materials using Guid(8bb79b4c2ac9846548b1008429cadd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218eb39d28731e7ee4d091c6d1d20253') in 0.006941 seconds
+  Import took 0.011088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094326 seconds.
+  path: Assets/Beach Essentials/Materials/Sand 1.mat
+  artifactKey: Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Materials/Sand 1.mat using Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3639263bc3fd447e97e2fbfff9c7ec6') in 0.023336 seconds
+  Import took 0.027022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.955192 seconds.
+  path: Assets/Beach Essentials/Meshes/Umbrella.fbx
+  artifactKey: Guid(749893d2eefe544fa9e84282bae1e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Meshes/Umbrella.fbx using Guid(749893d2eefe544fa9e84282bae1e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35fd982a31d87bb7915630a28799edd') in 0.072721 seconds
+  Import took 0.076672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.757248 seconds.
+  path: Assets/Beach Essentials/Prefabs/Umbrella.prefab
+  artifactKey: Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Umbrella.prefab using Guid(409b9a3db4c4d43e1b35d4ca8302f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6883da993539b2f1dabec5fce50c4') in 0.013221 seconds
+  Import took 0.017096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.739753 seconds.
+  path: Assets/Beach Essentials/Textures/BeachSky.png
+  artifactKey: Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/BeachSky.png using Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3fb834abe03cc057225ebd0d8a12d') in 0.017894 seconds
+  Import took 0.021748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Beach Essentials/Textures/umbrella1.png
+  artifactKey: Guid(28833988ad0d646908f84cbaf04b07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/umbrella1.png using Guid(28833988ad0d646908f84cbaf04b07d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d3f9994791a151807779ae676f6049') in 0.013693 seconds
+  Import took 0.017144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Beach Essentials/Textures/Umbrella2.png
+  artifactKey: Guid(e6d5d38e83fb54d438dec5682979d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/Umbrella2.png using Guid(e6d5d38e83fb54d438dec5682979d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b477649304a109992213f5c9aa93f5a2') in 0.013818 seconds
+  Import took 0.017458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Beach Essentials/Textures/Sand.png
+  artifactKey: Guid(ad70cf80be4314a5ea60b3ae90bd754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/Sand.png using Guid(ad70cf80be4314a5ea60b3ae90bd754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0251dd352c50bf71f948557989c5c9') in 0.012905 seconds
+  Import took 0.017199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.237791 seconds.
+  path: Assets/Beach Essentials/Textures/BeachSky.png
+  artifactKey: Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/BeachSky.png using Guid(27b8f8660067f454d8c1715d96448208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8897654f66b9ac4c3b263fb0a57ac05d') in 0.048965 seconds
+  Import took 0.053101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.294611 seconds.
+  path: Assets/Beach Essentials/Materials/Sand 1.mat
+  artifactKey: Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Materials/Sand 1.mat using Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649d9145cb9080628f196acdb356aad') in 0.012120 seconds
+  Import took 0.016420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.209002 seconds.
+  path: Assets/NVIDIA/Flex Samples/8. Cloth Deformation/Blue.mat
+  artifactKey: Guid(9ccef7ba8ef2e404fa6dbecdcbff9a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NVIDIA/Flex Samples/8. Cloth Deformation/Blue.mat using Guid(9ccef7ba8ef2e404fa6dbecdcbff9a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db787f4550aff401975df7bb156521e7') in 0.013619 seconds
+  Import took 0.018205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat
+  artifactKey: Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat using Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432e3d4f4444ade0d1287926f1c58154') in 0.076135 seconds
+  Import took 0.079528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ART/EffectExamples/Magic Effects/Materials/EarthCrack.mat
+  artifactKey: Guid(1f6abb4fa65207247b856825feae3e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Magic Effects/Materials/EarthCrack.mat using Guid(1f6abb4fa65207247b856825feae3e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042c4979009d91360590c91192e0ec2d') in 0.030465 seconds
+  Import took 0.034140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat
+  artifactKey: Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat using Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6159fb6769afe6e54143ead980d93673') in 0.020527 seconds
+  Import took 0.024786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Embers.mat
+  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Embers.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26397fb66ea09d6d5a347e8247f586d') in 0.049090 seconds
+  Import took 0.052558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat
+  artifactKey: Guid(fafa06e8ef8c7fb4eac7a74c65cf3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/ExplosionDistortion.mat using Guid(fafa06e8ef8c7fb4eac7a74c65cf3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dac8d27faeec7f8372553854b6e19d') in 0.031764 seconds
+  Import took 0.035287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat
+  artifactKey: Guid(e43d70c08c6bf7e4aa274e46393928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Flame01.mat using Guid(e43d70c08c6bf7e4aa274e46393928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bc00c32eec79f9a8440dad034a4972') in 0.020252 seconds
+  Import took 0.023791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/Dissolve.mat
+  artifactKey: Guid(8385f0e712bb65b428cf18e6ab1c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/Dissolve.mat using Guid(8385f0e712bb65b428cf18e6ab1c29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf14d7f01088578c73cb59f2dbaae82') in 0.066009 seconds
+  Import took 0.069608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/ART/Shared/Environment/Materials/ConcreteWall.mat
+  artifactKey: Guid(f9c717e11fb192c4aa958181f2ebc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Shared/Environment/Materials/ConcreteWall.mat using Guid(f9c717e11fb192c4aa958181f2ebc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52731c3a675dcd0a7efc485d574728d9') in 0.085384 seconds
+  Import took 0.089678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat
+  artifactKey: Guid(0a35d64bb8fd24f47b8bf3802f71313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat using Guid(0a35d64bb8fd24f47b8bf3802f71313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107d52de284611360df1f9850e70346c') in 0.018497 seconds
+  Import took 0.022209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/CandleFlame.mat
+  artifactKey: Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/CandleFlame.mat using Guid(d960d897cdc819041a73dceb80befb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3812ee8282ec039f0fcb347e1c6bd5') in 0.019912 seconds
+  Import took 0.023617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/NVIDIA/Flex Samples/7. Soft Skinning/Materials/default.mat
+  artifactKey: Guid(a9673ac27bc1bd44999a2740b103fa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NVIDIA/Flex Samples/7. Soft Skinning/Materials/default.mat using Guid(a9673ac27bc1bd44999a2740b103fa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4e4c7e1dbe6478c4c2a85cd647d4dd') in 0.011865 seconds
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/DustMote.mat
+  artifactKey: Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/DustMote.mat using Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc743c84b9982a4da1cafd62532831e') in 0.018663 seconds
+  Import took 0.022477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Dust.mat
+  artifactKey: Guid(0227585ad08c3da4ab3286a2f78d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Dust.mat using Guid(0227585ad08c3da4ab3286a2f78d42f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ae6912f45f534ddd862324576b168') in 0.063639 seconds
+  Import took 0.067438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat
+  artifactKey: Guid(7a306caa8f9f7ed40a5361ce411cdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/FireExplosion.mat using Guid(7a306caa8f9f7ed40a5361ce411cdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08a5d4398b39a7cc223b65f85b57bf8') in 0.061906 seconds
+  Import took 0.065334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat
+  artifactKey: Guid(bf88af72084132746823869f28b070f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/EnergyExplosion.mat using Guid(bf88af72084132746823869f28b070f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17173eb5b8c1bc3ccaf70bf2edd310') in 0.021909 seconds
+  Import took 0.025383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ART/Sherbbs Particle Collection/Materials/DarkSkybox.mat
+  artifactKey: Guid(d56b341fb6cba0e4f96669e4995bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Sherbbs Particle Collection/Materials/DarkSkybox.mat using Guid(d56b341fb6cba0e4f96669e4995bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b403126f088c3cc271b1acf26ce69c') in 0.036528 seconds
+  Import took 0.040107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat
+  artifactKey: Guid(1d11412570f90ba4caf1b0b6dea27152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat using Guid(1d11412570f90ba4caf1b0b6dea27152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e16af9f929fc7d32e5860b450c19f1') in 0.017586 seconds
+  Import took 0.021791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Shaders/Bubble/Bubble Graph/Bubble Material.mat
+  artifactKey: Guid(4402944133da99a45b0ddcca5945455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Bubble/Bubble Graph/Bubble Material.mat using Guid(4402944133da99a45b0ddcca5945455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1640
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1640
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1174
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1640
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1174
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: DOTS_INSTANCING_ON LIGHTMAP_ON DIRLIGHTMAP_COMBINED _SAMPLE_GI INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/BubbleGraph': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl'. at line 1640
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '43fad7c395eb81a5648fae739ebd3055') in 0.023486 seconds
+  Import took 0.027422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat
+  artifactKey: Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat using Guid(a6492a173e6c03f48899880b96cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aabd7cfb83ac613b4587df8e89ea74') in 0.047195 seconds
+  Import took 0.050769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat
+  artifactKey: Guid(cb54088e4fe82ce44aafb5f3dc12b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Smoke & Steam Effects/Materials/Embers.mat using Guid(cb54088e4fe82ce44aafb5f3dc12b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623b956244b9dc2c0e8793a1cae6cc77') in 0.010287 seconds
+  Import took 0.014048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/FireFly.mat
+  artifactKey: Guid(5471faebdbcc34e47baecfecda463063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/FireFly.mat using Guid(5471faebdbcc34e47baecfecda463063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780dc9cea94305d786f406c8a1b1a77b') in 0.053780 seconds
+  Import took 0.057613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Explosion.mat
+  artifactKey: Guid(6421a5a06ae9f7a47a57b67f35c73b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Explosion.mat using Guid(6421a5a06ae9f7a47a57b67f35c73b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580b24e7dcf1f116c9b24f77fdb58f88') in 0.032877 seconds
+  Import took 0.037666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat
+  artifactKey: Guid(53a63d52a4c231f4c8ef0f2bfc170425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Dust.mat using Guid(53a63d52a4c231f4c8ef0f2bfc170425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46d657a0de82e2591d36a43ab0acceb') in 0.020439 seconds
+  Import took 0.024202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat
+  artifactKey: Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat using Guid(1402721190994cd46b64bf7cba78f5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa9f92b25040c251a1bebd2fecacbe5') in 0.018773 seconds
+  Import took 0.022286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/DissolveChunks.mat
+  artifactKey: Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/DissolveChunks.mat using Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0c967a447d92fe97a46479f82da541') in 0.056674 seconds
+  Import took 0.060190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat
+  artifactKey: Guid(65586f2fde3974c4e9469dfe6cf89338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/EnergyShockwave.mat using Guid(65586f2fde3974c4e9469dfe6cf89338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdaf645a4cc286592c6f53d4c46a3e4') in 0.012593 seconds
+  Import took 0.016298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/DissolveChunks.mat
+  artifactKey: Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/DissolveChunks.mat using Guid(3544992394a7b954789108f2fa57027e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0c967a447d92fe97a46479f82da541') in 0.008810 seconds
+  Import took 0.012453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/Embers.mat
+  artifactKey: Guid(93c97da0a9a11174ab89575db81f7917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/Embers.mat using Guid(93c97da0a9a11174ab89575db81f7917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fdccb36eec10067e1dfede414160b1') in 0.007982 seconds
+  Import took 0.011503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat
+  artifactKey: Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/DebrisParticle.mat using Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa487d25c5c1f978c49d20e1bc70eee') in 0.018453 seconds
+  Import took 0.022042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat
+  artifactKey: Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat using Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1297bc170b8930c4b9e1b9b976791d7') in 0.019027 seconds
+  Import took 0.022671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat
+  artifactKey: Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat using Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67160195054ab1cc722ab8e32bd967fc') in 0.031250 seconds
+  Import took 0.034827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat
+  artifactKey: Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Fire & Explosion Effects/Materials/Flame02.mat using Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd74e8117306e6592085907c702be57b') in 0.047392 seconds
+  Import took 0.050950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ART/EffectExamples/Magic Effects/Materials/Fireball.mat
+  artifactKey: Guid(a74b8e4e831053c46943378279c70e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Magic Effects/Materials/Fireball.mat using Guid(a74b8e4e831053c46943378279c70e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbc391312318a3456e2d0797ab2f8b3') in 0.015201 seconds
+  Import took 0.018760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ART/Shared/Environment/Materials/ConcreteFloor.mat
+  artifactKey: Guid(21c505286c5bbe045a472bee261889e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Shared/Environment/Materials/ConcreteFloor.mat using Guid(21c505286c5bbe045a472bee261889e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff04bf70ad3fb3dbf4ba19f35f7b4c5') in 0.048424 seconds
+  Import took 0.052892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/ART/EffectExamples/Magic Effects/Materials/Embers.mat
+  artifactKey: Guid(c5de4a4e91ddb59479cdec033c43cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Magic Effects/Materials/Embers.mat using Guid(c5de4a4e91ddb59479cdec033c43cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a96b13873f594487be05011dbf1875') in 0.007788 seconds
+  Import took 0.011606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ART/EffectExamples/Misc Effects/Materials/candle.mat
+  artifactKey: Guid(475822f8482d0fd4d861c763d1f3934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Misc Effects/Materials/candle.mat using Guid(475822f8482d0fd4d861c763d1f3934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74107b2cbb957dd94e21f4b8183f94ad') in 0.011862 seconds
+  Import took 0.015158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat
+  artifactKey: Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat using Guid(094e76e620df5714eb3946120657e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d08cf104576ba013a9477e112f3ba6') in 0.018843 seconds
+  Import took 0.022662 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3398.
+Total: 7.803000 ms (FindLiveObjects: 0.975000 ms CreateObjectMapping: 0.630000 ms MarkObjects: 3.833100 ms  DeleteObjects: 2.361900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 408.567155 seconds.
+  path: Assets/WATER SIMULATION/Prefabs
+  artifactKey: Guid(6022ce5245280f04a892daf177cb273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Prefabs using Guid(6022ce5245280f04a892daf177cb273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e78d99329273129b05a77c68a65cb90') in 0.010575 seconds
+  Import took 0.015072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.469992 seconds.
+  path: Assets/WATER SIMULATION/Prefabs/Umbrella.prefab
+  artifactKey: Guid(c8376d7c70ee0304d997c0460d0bd7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Prefabs/Umbrella.prefab using Guid(c8376d7c70ee0304d997c0460d0bd7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 136
+
+Compiling Vertex program with _ADDITIONAL_LIGHTS
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK DIRLIGHTMAP_COMBINED LIGHTMAP_ON DOTS_INSTANCING_ON FOG_LINEAR FOG_EXP FOG_EXP2 INSTANCING_ON _NORMALMAP _PARALLAXMAP _DETAIL_MULX2 _DETAIL_SCALED _RECEIVE_SHADOWS_OFF UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 168
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING UNITY_PASS_SHADOWCASTER
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '093cb8a15675394eef8cdc063bc0e55e') in 0.170458 seconds
+  Import took 0.174441 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.7 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3436.
+Total: 3.489400 ms (FindLiveObjects: 0.328900 ms CreateObjectMapping: 0.102800 ms MarkObjects: 1.829600 ms  DeleteObjects: 1.226600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.149516 seconds.
+  path: Assets/WATER SIMULATION/Flex/FlexArrayAsset.asset
+  artifactKey: Guid(21f430208be1d08408e1101d44332c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Flex/FlexArrayAsset.asset using Guid(21f430208be1d08408e1101d44332c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8b77057db3b4763ee2a348352226e7') in 0.028740 seconds
+  Import took 0.032902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/WATER SIMULATION/Flex/New FlexContainer.asset
+  artifactKey: Guid(b00c147dd39197d4f82f41a1c6805005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Flex/New FlexContainer.asset using Guid(b00c147dd39197d4f82f41a1c6805005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af81c98a64eb4494a96dce7eccebf63') in 0.010997 seconds
+  Import took 0.015020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/WATER SIMULATION/Flex/FlexSourceAsset.asset
+  artifactKey: Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WATER SIMULATION/Flex/FlexSourceAsset.asset using Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47ca2f059fe073c253f883e9d8c93b8') in 0.008656 seconds
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.8 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 3.820200 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.156100 ms MarkObjects: 2.104900 ms  DeleteObjects: 1.273800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 200.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 5.168500 ms (FindLiveObjects: 0.696400 ms CreateObjectMapping: 0.204200 ms MarkObjects: 2.162900 ms  DeleteObjects: 2.102900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.5 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 3.601400 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.133500 ms MarkObjects: 1.933300 ms  DeleteObjects: 1.246300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.8 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3444.
+Total: 4.114900 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.232100 ms MarkObjects: 2.088500 ms  DeleteObjects: 1.332800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.9 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 4.123300 ms (FindLiveObjects: 0.469300 ms CreateObjectMapping: 0.234500 ms MarkObjects: 2.153400 ms  DeleteObjects: 1.264400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3448.
+Total: 7.493400 ms (FindLiveObjects: 0.571000 ms CreateObjectMapping: 0.285900 ms MarkObjects: 4.330300 ms  DeleteObjects: 2.303600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.6 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3450.
+Total: 4.043800 ms (FindLiveObjects: 0.526800 ms CreateObjectMapping: 0.233900 ms MarkObjects: 1.987500 ms  DeleteObjects: 1.294800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.8 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.626000 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.038000 ms  DeleteObjects: 1.211700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.9 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3454.
+Total: 3.987500 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.179900 ms  DeleteObjects: 1.380900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.3 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3456.
+Total: 4.009600 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.202400 ms MarkObjects: 2.210400 ms  DeleteObjects: 1.272500 ms)
+

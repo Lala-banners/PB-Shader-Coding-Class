@@ -39,7 +39,10 @@ public class SoundSystem : MonoBehaviour
 
     private IEnumerator PlayFireworks(AudioSource _clip, int amount)
     {
-        _clip.Play();
+        if (_clip != null)
+        {
+            _clip.Play();
+        }
         yield return null;
     }
 }

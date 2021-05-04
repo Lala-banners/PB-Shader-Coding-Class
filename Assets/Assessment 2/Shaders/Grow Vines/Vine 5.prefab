@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7751843452295148159
+--- !u!1 &270968982023048048
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6980513589615208645}
-  - component: {fileID: 6300570742497093472}
-  - component: {fileID: 8112365000897778602}
-  - component: {fileID: 7445995398997495603}
+  - component: {fileID: 615159674187174346}
+  - component: {fileID: 4550509069623713391}
+  - component: {fileID: 1784077094675655333}
+  - component: {fileID: 1081924989129537084}
   m_Layer: 0
-  m_Name: Vine (3)
+  m_Name: Vine 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6980513589615208645
+--- !u!4 &615159674187174346
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751843452295148159}
-  m_LocalRotation: {x: 0.36418688, y: -0.36418688, z: -0.60610884, w: 0.60610884}
-  m_LocalPosition: {x: 3.56, y: 1.2, z: -3.41}
+  m_GameObject: {fileID: 270968982023048048}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 4.15, y: 1.2, z: -5.26}
   m_LocalScale: {x: 60, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -62, z: -90}
---- !u!33 &6300570742497093472
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
+--- !u!33 &4550509069623713391
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751843452295148159}
+  m_GameObject: {fileID: 270968982023048048}
   m_Mesh: {fileID: 150581138598605843, guid: 2323ce36601f23b449b0d773cedabbf8, type: 3}
---- !u!23 &8112365000897778602
+--- !u!23 &1784077094675655333
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751843452295148159}
+  m_GameObject: {fileID: 270968982023048048}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9486cce9d90c81842a6fb23288d9372b, type: 2}
+  - {fileID: 2100000, guid: 56e13dfcfd0fd81419e6569c80a179ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,13 +82,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7445995398997495603
+--- !u!114 &1081924989129537084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7751843452295148159}
+  m_GameObject: {fileID: 270968982023048048}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94ed23d42d4024744818a0dc77d89246, type: 3}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   growVinesMesh:
-  - {fileID: 8112365000897778602}
+  - {fileID: 1784077094675655333}
   growTime: 3
   refreshRte: 0.05
   minGrowth: 0

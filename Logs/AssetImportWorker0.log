@@ -610,3 +610,115 @@ System memory in use after: 170.8 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2983.
 Total: 3.851600 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.391500 ms MarkObjects: 3.007500 ms  DeleteObjects: 0.109300 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 2.312200 ms (FindLiveObjects: 0.545800 ms CreateObjectMapping: 0.226500 ms MarkObjects: 1.455500 ms  DeleteObjects: 0.082900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.871223 seconds.
+  path: Assets/Assessment 2/WATER SIMULATION/Flex/New FlexContainer.asset
+  artifactKey: Guid(b00c147dd39197d4f82f41a1c6805005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/WATER SIMULATION/Flex/New FlexContainer.asset using Guid(b00c147dd39197d4f82f41a1c6805005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f704dc36794ce3f0465224cb222923') in 0.033420 seconds
+  Import took 0.037952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002641 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 2.568800 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.062600 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.322846 seconds.
+  path: Assets/Assessment 2/WATER SIMULATION/Flex/FlexSourceAsset.asset
+  artifactKey: Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/WATER SIMULATION/Flex/FlexSourceAsset.asset using Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbab0d0e42792c1008be327ffcc74acc') in 0.040670 seconds
+  Import took 0.044321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.947717 seconds.
+  path: Assets/Assessment 2/WATER SIMULATION/Flex/FlexSourceAsset.asset
+  artifactKey: Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/WATER SIMULATION/Flex/FlexSourceAsset.asset using Guid(3d1b29e772a8337439e75979a54b9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbab0d0e42792c1008be327ffcc74acc') in 0.012863 seconds
+  Import took 0.016617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2989.
+Total: 1.811500 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.082400 ms MarkObjects: 1.419800 ms  DeleteObjects: 0.075600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 863.069134 seconds.
+  path: Assets/Assessment 2/Particle Systems/Rain
+  artifactKey: Guid(c72c315b10216024e9eefe4b5ed42523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/Particle Systems/Rain using Guid(c72c315b10216024e9eefe4b5ed42523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca165904393ee471a8cb657d2a6378fc') in 0.011898 seconds
+  Import took 0.016682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 412.099709 seconds.
+  path: Assets/Assessment 2/WATER SIMULATION/Rain
+  artifactKey: Guid(c980d823d2fb53041b0b9f88a0852a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/WATER SIMULATION/Rain using Guid(c980d823d2fb53041b0b9f88a0852a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b88f83e1a3656b8d1db35d56bd5f67') in 0.008483 seconds
+  Import took 0.013249 seconds .
+

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
 {
+
     [Header("Health UI")]
     [SerializeField] private Image[] heartSlots;
     [SerializeField] private Sprite[] hearts;
@@ -17,6 +18,13 @@ public class HealthSystem : MonoBehaviour
 
     [Header("Heal Particle System")]
     public ParticleSystem healPS;
+    public Animator anim;
+
+    private void Start()
+    {
+        healPS.Stop();
+        anim.enabled = false;
+    }
 
     private void Update()
     {
@@ -26,7 +34,10 @@ public class HealthSystem : MonoBehaviour
     public void Damage(float damage)
     {
         currentHealth -= damage;
-        if(currentHealth <= 0)
+        healPS.Stop();
+        anim.enabled = false;
+
+        if (currentHealth <= 0)
         {
             currentHealth = minHealth;
         }
@@ -35,8 +46,11 @@ public class HealthSystem : MonoBehaviour
     public void HealSelf(float hp)
     {
         currentHealth += hp;
+        healPS.Play();
+        anim.enabled = true;
+        anim.SetInteger("HealSelf", 1);
 
-        if(currentHealth >= maxHealth)
+        if (currentHealth >= maxHealth)
         {
             currentHealth = maxHealth;
         }

@@ -48,7 +48,7 @@ fixed4 frag(v2f i) : SV_Target
 #ifdef USE_LIGHTING
 	//diffuse lighting
 	float3 N = normalize(i.normal);
-	float3 L = _WorldSpaceLightPos0.xyz;//a direction 
+	float3 L = normalize(UnityWorldSpaceLightDir(i.wPos)); //_WorldSpaceLightPos0.xyz;//(a) direction 
 	float attenuation = LIGHT_ATTENUATION(i);
 
 

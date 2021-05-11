@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Heal : MonoBehaviour
+public class HealthSystem : MonoBehaviour
 {
+    [Header("Health UI")]
     [SerializeField] private Image[] heartSlots;
     [SerializeField] private Sprite[] hearts;
     private float healthPerSection;
 
+    [Header("Health Stats")]
     public float currentHealth;
     public float maxHealth;
     public float minHealth;
+
+    [Header("Heal Particle System")]
+    public ParticleSystem healPS;
 
     private void Update()
     {

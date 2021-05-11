@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glow
+  m_Name: Sparkles
   m_Shader: {fileID: -6465566751694194690, guid: 096e4edf6d581964da11572d2f339f01,
     type: 3}
   m_ShaderKeywords: 
@@ -34,5 +34,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_5eaf58a189654baf8ad82559e4a84080: {r: 0, g: 21.361254, b: 0, a: 0}
+    - Color_5eaf58a189654baf8ad82559e4a84080: {r: 0, g: 32, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -578,3 +578,59 @@ Received Import Request.
 Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMaterial.mat using Guid(e3d5bce74c9cb314ba1221b6a4961275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cd2c8da1d3df760c2fa34002201be3') in 0.013195 seconds
   Import took 0.018910 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 81.020744 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/New Lighting Settings.lighting
+  artifactKey: Guid(98760ad99b7a717468065f7351d2d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/New Lighting Settings.lighting using Guid(98760ad99b7a717468065f7351d2d10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10471ee63c4e9eba695c7bfb4cd2d2b8') in 0.009182 seconds
+  Import took 0.014136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.355080 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader
+  artifactKey: Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader using Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b665c14fa62c090302b80d744f4ca73') in 0.005301 seconds
+  Import took 0.010638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.802524 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/Maps.cginc
+  artifactKey: Guid(2531f6df8641af84aa5ddd2e8b6e4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/Maps.cginc using Guid(2531f6df8641af84aa5ddd2e8b6e4dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93dc02feb0be03436b1c8184c98d7d2') in 0.008085 seconds
+  Import took 0.014573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.123052 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader
+  artifactKey: Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader using Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1171ce2732ebb6735236d93b343ee38') in 0.005833 seconds
+  Import took 0.014258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader
+  artifactKey: Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMulti.shader using Guid(2cfd6fed17aa8b34fa138aa5382050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1171ce2732ebb6735236d93b343ee38') in 0.006142 seconds
+  Import took 0.013421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.606554 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMaterial.mat
+  artifactKey: Guid(e3d5bce74c9cb314ba1221b6a4961275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMaterial.mat using Guid(e3d5bce74c9cb314ba1221b6a4961275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f79a3962fe76fb933a957595348b0') in 0.017353 seconds
+  Import took 0.023572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 428.255196 seconds.
+  path: Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMaterial.mat
+  artifactKey: Guid(e3d5bce74c9cb314ba1221b6a4961275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class Stuff/SHADER CODING/LightingMulti/LightingMaterial.mat using Guid(e3d5bce74c9cb314ba1221b6a4961275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be280a8c4c2c86e739f60624342eca4b') in 0.013883 seconds
+  Import took 0.019488 seconds .
+

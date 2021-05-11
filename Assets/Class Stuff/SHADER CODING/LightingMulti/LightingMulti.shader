@@ -17,6 +17,7 @@ Shader "Unlit/LightingMulti"
         {
             Tags{"LightMode" = "ForwardBase"}     
             CGPROGRAM
+            #define IS_IN_BASE_PASS //Tells if in base pass or forward pass
             #pragma vertex vert
             #pragma fragment frag
 
@@ -33,6 +34,7 @@ Shader "Unlit/LightingMulti"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile_fwdadd //dad
 
             #include "Maps.cginc"
             

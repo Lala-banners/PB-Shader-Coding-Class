@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightingMat
-  m_Shader: {fileID: 4800000, guid: 65f2f42169b4de7429d341a5cc2b5887, type: 3}
+  m_Name: LightingMaterial
+  m_Shader: {fileID: 4800000, guid: 2cfd6fed17aa8b34fa138aa5382050f4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,13 +24,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Gloss: 0.39
-    - _GlowFrequency: 0.39
-    - _GlowMagnitude: 0.71
-    - _glowFreq: 0.47
-    - _glowMag: 0.17
-    - _glowfreq: 0.5
-    - _glowmag: 0.5
+    - _Gloss: 1
+    - _glowFreq: 0.5
+    - _glowMag: 0.5
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

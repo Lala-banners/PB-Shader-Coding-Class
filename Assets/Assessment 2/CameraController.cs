@@ -7,8 +7,9 @@ using TMPro;
 public class CameraController : MonoBehaviour
 {
     [Header("Camera")]
-    public GameObject fireworksCam, dissolveCam, rippleCam, vineCam, bubblesCam, sparkCam, rainCam, tornadoCam;
-    private AudioListener fireworkAL, dissolveAL, rippleAL, vineAL, bubblesAL, sparkAL, rainAL, tornadoAL;
+    public GameObject fireworksCam, dissolveCam, rippleCam, vineCam, bubblesCam, sparkCam, rainCam, tornadoCam, healCam;
+    private AudioListener fireworkAL, dissolveAL, rippleAL, vineAL, bubblesAL, sparkAL, rainAL, tornadoAL, healAL;
+    public GameObject healCanvas;
 
     [Header("Text")]
     public TMP_Text instructionsText;
@@ -16,6 +17,8 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        healCanvas.SetActive(false);
+        healAL = healCam.GetComponent<AudioListener>();
         fireworkAL = fireworksCam.GetComponent<AudioListener>();
         dissolveAL = dissolveCam.GetComponent<AudioListener>();
         rippleAL = rippleCam.GetComponent<AudioListener>();
@@ -57,6 +60,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha2)) //Dissolve Camera
         {
@@ -85,6 +91,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha3)) //Ripple Camera
         {
@@ -113,6 +122,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha4)) //Vine
         {
@@ -141,6 +153,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha5)) //Bubbles
         {
@@ -169,6 +184,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha6)) //Sparks
         {
@@ -197,6 +215,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha7)) //Rain
         {
@@ -225,6 +246,9 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(false);
             tornadoAL.enabled = false;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
         }
         if (Input.GetKeyDown(KeyCode.Alpha8)) //tornado
         {
@@ -253,6 +277,38 @@ public class CameraController : MonoBehaviour
 
             tornadoCam.SetActive(true);
             tornadoAL.enabled = true;
+
+            healCam.SetActive(false);
+            healAL.enabled = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            healCanvas.SetActive(true);
+
+            healCam.SetActive(true);
+            healAL.enabled = true;
+
+            fireworksCam.SetActive(false);
+            fireworkAL.enabled = false;
+
+            dissolveCam.SetActive(false);
+            dissolveAL.enabled = false;
+
+            rippleCam.SetActive(false);
+            rippleAL.enabled = false;
+
+            vineCam.SetActive(false);
+            vineAL.enabled = false;
+
+            bubblesCam.SetActive(false);
+            bubblesAL.enabled = false;
+
+            sparkCam.SetActive(false);
+            sparkAL.enabled = false;
+
+            rainCam.SetActive(false);
+            rainAL.enabled = false;
         }
         #endregion
 

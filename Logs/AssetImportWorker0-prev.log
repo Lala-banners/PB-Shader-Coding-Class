@@ -262,3 +262,40 @@ System memory in use after: 205.0 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3368.
 Total: 6.020700 ms (FindLiveObjects: 0.716200 ms CreateObjectMapping: 0.384900 ms MarkObjects: 4.764900 ms  DeleteObjects: 0.152400 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.96 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.8 MB.
+System memory in use after: 205.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 11.706300 ms (FindLiveObjects: 1.196400 ms CreateObjectMapping: 0.632300 ms MarkObjects: 9.537400 ms  DeleteObjects: 0.335900 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 22.90 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 7.560400 ms (FindLiveObjects: 0.839900 ms CreateObjectMapping: 0.432700 ms MarkObjects: 6.136400 ms  DeleteObjects: 0.148200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

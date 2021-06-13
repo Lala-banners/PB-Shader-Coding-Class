@@ -15,11 +15,11 @@ C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53211
+57306
 Successfully changed project path to: C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 C:/Users/lalal/Documents/Class Projects/PB-Shader-Coding-Class
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.83 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 68.75 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,306 +36,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002494 seconds.
+Registered in 0.002419 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.08 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 63.73 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.033 seconds
+- Completed reload, in  2.514 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004544 seconds.
+Registered in 0.004237 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.82 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 65.06 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
+- Completed reload, in  1.083 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.5 MB.
-System memory in use after: 209.6 MB.
+Unloading 2857 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.0 MB.
+System memory in use after: 210.1 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3311.
-Total: 2.393000 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.140500 ms MarkObjects: 1.866900 ms  DeleteObjects: 0.095700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Assessment 2/Shaders/Plasma Ball
-  artifactKey: Guid(a6c99151e39bd2e4787f3355d01955a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball using Guid(a6c99151e39bd2e4787f3355d01955a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327afc503ce913e3389d486af5eeba79') in 0.008610 seconds
-  Import took 0.012718 seconds .
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3312.
+Total: 2.582800 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.182700 ms MarkObjects: 1.892700 ms  DeleteObjects: 0.107400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Electricity.unity
-  artifactKey: Guid(56e9222b05749164a9ba9dac80e01fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Electricity.unity using Guid(56e9222b05749164a9ba9dac80e01fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f0f24c41b2f3a46f6bd4cfb4580f47') in 0.013770 seconds
-  Import took 0.017523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.554325 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Sparky.shadergraph
-  artifactKey: Guid(869f40e7f096cca4ebff224ddb61189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Sparky.shadergraph using Guid(869f40e7f096cca4ebff224ddb61189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105cba822e0dfaa55e45c790d33cfb3e') in 0.043528 seconds
-  Import took 0.047903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.218351 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph
-  artifactKey: Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph using Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b526797567f55739e2254554aae8a477') in 0.007502 seconds
-  Import took 0.012970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000768 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph
-  artifactKey: Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph using Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b526797567f55739e2254554aae8a477') in 0.003977 seconds
-  Import took 0.008452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.298238 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph
-  artifactKey: Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph using Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3ced025215ed59d8fc36467c1b1cee') in 0.007420 seconds
-  Import took 0.011906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.710345 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph
-  artifactKey: Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/MagicOrb.shadergraph using Guid(70ae4fd472551a64cb6157aef9044840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312cae4c43c678505de1664a3eccc21f') in 0.007566 seconds
-  Import took 0.012007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.048796 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat
-  artifactKey: Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat using Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90ea81c9bdb376c14a10479ead16ae') in 0.239665 seconds
-  Import took 0.244680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.941091 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Room.prefab
-  artifactKey: Guid(fb4023d259f6c3140b4b852e8f3d9138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Room.prefab using Guid(fb4023d259f6c3140b4b852e8f3d9138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ef4e75830a263d24af835c07ad4981') in 0.039630 seconds
-  Import took 0.043898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.140082 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7657b8b3263d3c997794bd758ddb8ae') in 0.008896 seconds
-  Import took 0.013520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.458782 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7657b8b3263d3c997794bd758ddb8ae') in 0.003638 seconds
-  Import took 0.007992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.108539 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat
-  artifactKey: Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat using Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403bea60a81fea129b078d1c7feca7f') in 0.031436 seconds
-  Import took 0.036598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.112900 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bde1a8bd297f05b466a3f5fed01957') in 0.012078 seconds
-  Import took 0.018932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 273.164153 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/ElecticTexture.jpg
-  artifactKey: Guid(fb43649d5ed16ec49bb920d3a10f3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/ElecticTexture.jpg using Guid(fb43649d5ed16ec49bb920d3a10f3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9438899226dc2c68d7e4b5a1c73b98a9') in 0.031828 seconds
-  Import took 0.037960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 533.019020 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aca17e836372e8a29557873bdaad56') in 0.007830 seconds
-  Import took 0.012831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.975099 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/OrbMaterial.mat
-  artifactKey: Guid(4a63938a43a7e014b82eacc301232c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/OrbMaterial.mat using Guid(4a63938a43a7e014b82eacc301232c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea2dab2a75bfe81b8a8b96b12bf99fe') in 0.030171 seconds
-  Import took 0.034467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.861823 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat
-  artifactKey: Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/OuterOrb.mat using Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2ccade7ff93a3f19b44bcd54db1bfb') in 0.026990 seconds
-  Import took 0.033563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.349387 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/InnerOrb.mat
-  artifactKey: Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/InnerOrb.mat using Guid(3ce07d2b70221c74a8462e2d69171f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b412741d60dba305d53158fd99cf77') in 0.022206 seconds
-  Import took 0.028115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.618693 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat
-  artifactKey: Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat using Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62e3ec16eecf7d9caa68496d8ee75a3') in 0.017220 seconds
-  Import took 0.021624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.269451 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274a5b97e34e600a9eb0da3e2daf2a4e') in 0.008159 seconds
-  Import took 0.013919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.844281 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbac00329aab8798c0416a3d1a35394') in 0.006018 seconds
-  Import took 0.013034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.983713 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph
-  artifactKey: Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.shadergraph using Guid(e371a11cee238ce42b96d881a8019ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ff2688672c19005ee5119a0cf84342') in 0.008312 seconds
-  Import took 0.012773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.678814 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat
-  artifactKey: Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat using Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6209d428858decb19af95eb090c4ea21') in 0.020481 seconds
-  Import took 0.025347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/OrbMaterial.mat
-  artifactKey: Guid(4a63938a43a7e014b82eacc301232c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/OrbMaterial.mat using Guid(4a63938a43a7e014b82eacc301232c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8ab72513492718b658e3458705bdb5') in 0.041360 seconds
-  Import took 0.047959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 144.887959 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat
-  artifactKey: Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/InnerOrbGlow.mat using Guid(6f496cd11ebcae943bf1857f953de12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c999987334ca513dae67cbcd4188a') in 0.019315 seconds
-  Import took 0.024777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.221686 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.prefab
-  artifactKey: Guid(c6c583bf3bc8e58408f56f82c3b3b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.prefab using Guid(c6c583bf3bc8e58408f56f82c3b3b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fa0d97be277fa8dae9f2c35d7da6a') in 0.029376 seconds
-  Import took 0.034448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.100495 seconds.
-  path: Assets/Assessment 2/Shaders/Plasma Ball/Orb.prefab
-  artifactKey: Guid(c6c583bf3bc8e58408f56f82c3b3b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assessment 2/Shaders/Plasma Ball/Orb.prefab using Guid(c6c583bf3bc8e58408f56f82c3b3b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3978b1839924312f741615ae79e6d8') in 0.041029 seconds
-  Import took 0.045574 seconds .
+  path: Assets/Assessment 2/Particle Systems/Heal/Heal.unity
+  artifactKey: Guid(a394359b6c0d56748af292f26a5fd1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assessment 2/Particle Systems/Heal/Heal.unity using Guid(a394359b6c0d56748af292f26a5fd1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197a6b943220bbceed75c52419456e2') in 0.018260 seconds
+  Import took 0.022589 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004537 seconds.
+Registered in 0.004431 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.947 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.58 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.4 MB.
-System memory in use after: 205.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3396.
-Total: 2.123200 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.136200 ms MarkObjects: 1.652500 ms  DeleteObjects: 0.067100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005417 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.4 MB.
-System memory in use after: 205.6 MB.
+System memory in use before: 199.9 MB.
+System memory in use after: 200.1 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3398.
-Total: 2.454900 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.217300 ms MarkObjects: 1.792600 ms  DeleteObjects: 0.072200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 2.990600 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.400900 ms  DeleteObjects: 0.097900 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
